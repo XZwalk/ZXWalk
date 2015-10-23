@@ -1,0 +1,39 @@
+//
+//  PrefixHeader.pch
+//  ZXwalk
+//
+//  Created by 张祥 on 15/8/8.
+//  Copyright (c) 2015年 张祥. All rights reserved.
+//
+
+#ifndef ZXwalk_PrefixHeader_pch
+#define ZXwalk_PrefixHeader_pch
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+#define kItem_Height 60
+
+//每行显示几个Item
+#define kItem_Number 4
+
+//展开之后每行显示几个Item
+#define kDetail_Item_Number 4
+
+#endif
+
+
+
+
+#ifndef __IPHONE_5_0
+//#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+
+//表示宏内引用的文件确保只被使用Objective-C语言的文件所引用，保证引用关系的清晰。
+#ifdef __OBJC__
+@import UIKit;
+@import Foundation;
+#endif
