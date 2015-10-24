@@ -152,6 +152,10 @@
 		FE3D67BE1B789A9200A4AD3F /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D67BD1B789A9200A4AD3F /* CAGradientLayerViewController.m */; };
 		FE3D67C21B78ACE300A4AD3F /* GradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D67C11B78ACE300A4AD3F /* GradientProgressView.m */; };
 		FE3D67C61B78ACF300A4AD3F /* GradientProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D67C51B78ACF300A4AD3F /* GradientProgressViewController.m */; };
+		FE432BDE1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BDD1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FE432BE11BDBDED70011FFBF /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BE01BDBDED70011FFBF /* TransitionView.m */; settings = {ASSET_TAGS = (); }; };
+		FE432BE31BDBDEE60011FFBF /* TransitionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE432BE21BDBDEE60011FFBF /* TransitionView.xib */; settings = {ASSET_TAGS = (); }; };
+		FE432BE61BDBDFF00011FFBF /* STModal.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BE51BDBDFF00011FFBF /* STModal.m */; settings = {ASSET_TAGS = (); }; };
 		FE4A236E1B75E28B00A39627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4A236D1B75E28B00A39627 /* main.m */; };
 		FE4A23711B75E28B00A39627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4A23701B75E28B00A39627 /* AppDelegate.m */; };
 		FE4A23731B75E28B00A39627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4A23721B75E28B00A39627 /* Images.xcassets */; };
@@ -483,6 +487,13 @@
 		FE3D67C11B78ACE300A4AD3F /* GradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressView.m; sourceTree = "<group>"; };
 		FE3D67C41B78ACF300A4AD3F /* GradientProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientProgressViewController.h; sourceTree = "<group>"; };
 		FE3D67C51B78ACF300A4AD3F /* GradientProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressViewController.m; sourceTree = "<group>"; };
+		FE432BDC1BDBDAE70011FFBF /* OpenAccountTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenAccountTransitionViewController.h; sourceTree = "<group>"; };
+		FE432BDD1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenAccountTransitionViewController.m; sourceTree = "<group>"; };
+		FE432BDF1BDBDED70011FFBF /* TransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionView.h; sourceTree = "<group>"; };
+		FE432BE01BDBDED70011FFBF /* TransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionView.m; sourceTree = "<group>"; };
+		FE432BE21BDBDEE60011FFBF /* TransitionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionView.xib; sourceTree = "<group>"; };
+		FE432BE41BDBDFF00011FFBF /* STModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STModal.h; sourceTree = "<group>"; };
+		FE432BE51BDBDFF00011FFBF /* STModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STModal.m; sourceTree = "<group>"; };
 		FE4A23681B75E28B00A39627 /* ZXwalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXwalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE4A236C1B75E28B00A39627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE4A236D1B75E28B00A39627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1194,6 +1205,44 @@
 			path = GradientProgressView;
 			sourceTree = "<group>";
 		};
+		FE432BD51BDBD9DC0011FFBF /* v4.40.01 */ = {
+			isa = PBXGroup;
+			children = (
+				FE432BD91BDBDA660011FFBF /* Controllers */,
+				FE432BDA1BDBDA660011FFBF /* Models */,
+				FE432BDB1BDBDA660011FFBF /* Views */,
+			);
+			path = v4.40.01;
+			sourceTree = "<group>";
+		};
+		FE432BD91BDBDA660011FFBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE432BDC1BDBDAE70011FFBF /* OpenAccountTransitionViewController.h */,
+				FE432BDD1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FE432BDA1BDBDA660011FFBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE432BE41BDBDFF00011FFBF /* STModal.h */,
+				FE432BE51BDBDFF00011FFBF /* STModal.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE432BDB1BDBDA660011FFBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE432BDF1BDBDED70011FFBF /* TransitionView.h */,
+				FE432BE01BDBDED70011FFBF /* TransitionView.m */,
+				FE432BE21BDBDEE60011FFBF /* TransitionView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FE4A235F1B75E28B00A39627 = {
 			isa = PBXGroup;
 			children = (
@@ -1490,6 +1539,7 @@
 			children = (
 				FEE89E991BDB331600458746 /* IJJViewController.h */,
 				FEE89E9A1BDB331600458746 /* IJJViewController.m */,
+				FE432BD51BDBD9DC0011FFBF /* v4.40.01 */,
 			);
 			path = iPhoneIJJ;
 			sourceTree = "<group>";
@@ -1605,6 +1655,7 @@
 				FE3D66941B77A34400A4AD3F /* UIBarButtonItemArrowLeft.png in Resources */,
 				FE3D66891B77A34400A4AD3F /* ImageSelectedSmallOff@2x.png in Resources */,
 				FE8F09371B78DC05001D2B08 /* DazFlameIcon.png in Resources */,
+				FE432BE31BDBDEE60011FFBF /* TransitionView.xib in Resources */,
 				FE945F3F1B79D87E00A99AF8 /* CUSSenderFlower4.png in Resources */,
 				FE3D66851B77A34400A4AD3F /* ImageSelectedOn.png in Resources */,
 				FE3D668F1B77A34400A4AD3F /* PlayButtonOverlayLarge@2x.png in Resources */,
@@ -1742,6 +1793,7 @@
 				FE3D671D1B77A63600A4AD3F /* MWPhotoBrowserController.m in Sources */,
 				FE3D67141B77A62900A4AD3F /* SpreadCollectionController.m in Sources */,
 				FE4A23711B75E28B00A39627 /* AppDelegate.m in Sources */,
+				FE432BDE1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m in Sources */,
 				FE8F09701B78E846001D2B08 /* CustomButton.m in Sources */,
 				FE3D65AC1B77A22400A4AD3F /* UIImage+MWPhotoBrowser.m in Sources */,
 				FE3D66F31B77A61F00A4AD3F /* UIWebViewViewController.m in Sources */,
@@ -1772,6 +1824,7 @@
 				FE945F7C1B79DEED00A99AF8 /* KissLayer.m in Sources */,
 				FE3D65B41B77A22400A4AD3F /* SDWebImageManager.m in Sources */,
 				FE3D67921B788E4500A4AD3F /* GCDGroup.m in Sources */,
+				FE432BE61BDBDFF00011FFBF /* STModal.m in Sources */,
 				FE3D67121B77A62900A4AD3F /* FooterView.m in Sources */,
 				FE3D65B51B77A22400A4AD3F /* SDWebImagePrefetcher.m in Sources */,
 				FE3D65B61B77A22400A4AD3F /* UIButton+WebCache.m in Sources */,
@@ -1786,6 +1839,7 @@
 				FE8F09711B78E846001D2B08 /* EmitterView.m in Sources */,
 				FE8F09571B78E218001D2B08 /* FireViewController.m in Sources */,
 				FE3D67111B77A62900A4AD3F /* DetailViewController.m in Sources */,
+				FE432BE11BDBDED70011FFBF /* TransitionView.m in Sources */,
 				FE8F09141B78DA15001D2B08 /* CAEmitterLayerVC.m in Sources */,
 				FE3D65BD1B77A22400A4AD3F /* UIViewAdditions.m in Sources */,
 				FE3D659A1B77A22400A4AD3F /* AFSecurityPolicy.m in Sources */,
