@@ -1,5 +1,5 @@
 //
-//  YuliuViewController.h
+//  Yuliu2ViewController.h
 //  ZXwalk
 //
 //  Created by 张祥 on 15/8/9.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ThirdPartViewController : UIViewController
+@interface IJJViewController : UIViewController
 
 @end

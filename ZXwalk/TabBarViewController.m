@@ -29,10 +29,10 @@
     NSArray *controllersNames = @[@"DemoViewController",
                              @"MyDemoViewController",
                              @"ThirdPartViewController",
-                             @"Yuliu2ViewController"];
+                             @"IJJViewController"];
     
     
-    NSArray *titles = @[@"网上", @"MyApp", @"第三方", @"yuliu"];
+    NSArray *titles = @[@"网上", @"MyApp", @"第三方", @"爱基金"];
     
     NSArray *images = @[@"tabbar_contacts", @"tabbar_me", @"tabbar_mainframe", @"tabbar_mainframe"];
     

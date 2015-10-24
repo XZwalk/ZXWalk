@@ -6,13 +6,13 @@
 //  Copyright (c) 2015年 张祥. All rights reserved.
 //
 
-#import "Yuliu2ViewController.h"
+#import "IJJViewController.h"
 
-@interface Yuliu2ViewController ()
+@interface IJJViewController ()
 
 @end
 
-@implementation Yuliu2ViewController
+@implementation IJJViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

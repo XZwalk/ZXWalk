@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FE3D633F1B7749A900A4AD3F /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D633E1B7749A900A4AD3F /* TabBarViewController.m */; };
-		FE3D63481B774A4E00A4AD3F /* Yuliu2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D63471B774A4E00A4AD3F /* Yuliu2ViewController.m */; };
 		FE3D63CD1B7781D600A4AD3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D63CC1B7781D600A4AD3F /* UIKit.framework */; };
 		FE3D63CF1B7781EB00A4AD3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D63CE1B7781EB00A4AD3F /* Foundation.framework */; };
 		FE3D63D11B7781FD00A4AD3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D63D01B7781FD00A4AD3F /* CoreGraphics.framework */; };
@@ -238,6 +237,7 @@
 		FE945F861B79F3A700A99AF8 /* PictureChangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE945F851B79F3A700A99AF8 /* PictureChangeVC.m */; };
 		FE945F8A1B79FB5700A99AF8 /* ZXPaoMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE945F891B79FB5700A99AF8 /* ZXPaoMaView.m */; };
 		FE945F8D1B7A0EB100A99AF8 /* ZXPaoMaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE945F8C1B7A0EB100A99AF8 /* ZXPaoMaViewController.m */; };
+		FEE89E9B1BDB331600458746 /* IJJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE89E9A1BDB331600458746 /* IJJViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -253,8 +253,6 @@
 /* Begin PBXFileReference section */
 		FE3D633D1B7749A900A4AD3F /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		FE3D633E1B7749A900A4AD3F /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
-		FE3D63461B774A4E00A4AD3F /* Yuliu2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yuliu2ViewController.h; sourceTree = "<group>"; };
-		FE3D63471B774A4E00A4AD3F /* Yuliu2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yuliu2ViewController.m; sourceTree = "<group>"; };
 		FE3D63CC1B7781D600A4AD3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE3D63CE1B7781EB00A4AD3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FE3D63D01B7781FD00A4AD3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -598,6 +596,8 @@
 		FE945F891B79FB5700A99AF8 /* ZXPaoMaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPaoMaView.m; sourceTree = "<group>"; };
 		FE945F8B1B7A0EB100A99AF8 /* ZXPaoMaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPaoMaViewController.h; sourceTree = "<group>"; };
 		FE945F8C1B7A0EB100A99AF8 /* ZXPaoMaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPaoMaViewController.m; sourceTree = "<group>"; };
+		FEE89E991BDB331600458746 /* IJJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJJViewController.h; sourceTree = "<group>"; };
+		FEE89E9A1BDB331600458746 /* IJJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJJViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -621,15 +621,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE3D63541B7752BF00A4AD3F /* Obligate */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D63461B774A4E00A4AD3F /* Yuliu2ViewController.h */,
-				FE3D63471B774A4E00A4AD3F /* Yuliu2ViewController.m */,
-			);
-			name = Obligate;
-			sourceTree = "<group>";
-		};
 		FE3D65381B77A22400A4AD3F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1231,7 +1222,7 @@
 				FE3D66BB1B77A61F00A4AD3F /* InternetDemo */,
 				FE3D66F41B77A62900A4AD3F /* MyDemo */,
 				FE3D67161B77A63600A4AD3F /* ThirdPart */,
-				FE3D63541B7752BF00A4AD3F /* Obligate */,
+				FEE89E981BDB331600458746 /* iPhoneIJJ */,
 				FE3D663C1B77A31A00A4AD3F /* Frameworks */,
 				FE3D663D1B77A34400A4AD3F /* Resources */,
 				FE3D65381B77A22400A4AD3F /* Helpers */,
@@ -1494,6 +1485,15 @@
 			path = ZXPaoMaView;
 			sourceTree = "<group>";
 		};
+		FEE89E981BDB331600458746 /* iPhoneIJJ */ = {
+			isa = PBXGroup;
+			children = (
+				FEE89E991BDB331600458746 /* IJJViewController.h */,
+				FEE89E9A1BDB331600458746 /* IJJViewController.m */,
+			);
+			path = iPhoneIJJ;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1715,6 +1715,7 @@
 			files = (
 				FE3D67931B788E4500A4AD3F /* GCDQueue.m in Sources */,
 				FE3D670D1B77A62900A4AD3F /* SecondLevelTabViewController.m in Sources */,
+				FEE89E9B1BDB331600458746 /* IJJViewController.m in Sources */,
 				FE3D679D1B788F8A00A4AD3F /* CALayerViewController.m in Sources */,
 				FE945F8A1B79FB5700A99AF8 /* ZXPaoMaView.m in Sources */,
 				FE3D659F1B77A22400A4AD3F /* UIScrollView+SVInfiniteScrolling.m in Sources */,
@@ -1816,7 +1817,6 @@
 				FE3D66E81B77A61F00A4AD3F /* UIImage+Crop.m in Sources */,
 				FE945F7B1B79DEED00A99AF8 /* GoldLayer.m in Sources */,
 				FE945F7F1B79DEED00A99AF8 /* StarLayer.m in Sources */,
-				FE3D63481B774A4E00A4AD3F /* Yuliu2ViewController.m in Sources */,
 				FE3D67941B788E4500A4AD3F /* GCDSemaphore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
