@@ -59,15 +59,8 @@
     
     self.infoLabel.frame = CGRectMake(10, 250, [UIScreen mainScreen].bounds.size.width - 20, [UIScreen mainScreen].bounds.size.height - 250);
     
-    self.tabBarController.tabBar.hidden = YES;
 }
 
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    
-    self.tabBarController.tabBar.hidden = NO;
-}
 
 
 - (void)didReceiveMemoryWarning {
@@ -103,12 +96,6 @@
     modal.hideWhenTouchOutside = YES;
     
     [modal show:YES];
-    
-    
-    
-    
-    
-    
     
 }
 

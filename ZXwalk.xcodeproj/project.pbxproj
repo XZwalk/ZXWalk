@@ -19,6 +19,12 @@
 		FE20FD981BDD1E4500A59382 /* 过渡动画-按钮2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD8C1BDD1E4500A59382 /* 过渡动画-按钮2.png */; };
 		FE20FD991BDD1E4500A59382 /* 过渡动画-控件.png in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD8D1BDD1E4500A59382 /* 过渡动画-控件.png */; };
 		FE20FD9A1BDD1E4500A59382 /* 金币.png in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD8E1BDD1E4500A59382 /* 金币.png */; };
+		FE20FDA01BDD225800A59382 /* FourthProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE20FD9E1BDD225800A59382 /* FourthProjectViewController.m */; };
+		FE20FDA11BDD225800A59382 /* FourthProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD9F1BDD225800A59382 /* FourthProjectViewController.xib */; };
+		FE20FDA51BDD230E00A59382 /* FourthProjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE20FDA31BDD230E00A59382 /* FourthProjectCell.m */; };
+		FE20FDA61BDD230E00A59382 /* FourthProjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE20FDA41BDD230E00A59382 /* FourthProjectCell.xib */; };
+		FE20FDAE1BDD2AFB00A59382 /* TestFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE20FDAC1BDD2AFB00A59382 /* TestFrameViewController.m */; };
+		FE20FDAF1BDD2AFB00A59382 /* TestFrameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE20FDAD1BDD2AFB00A59382 /* TestFrameViewController.xib */; };
 		FE3D633F1B7749A900A4AD3F /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D633E1B7749A900A4AD3F /* TabBarViewController.m */; };
 		FE3D63CD1B7781D600A4AD3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D63CC1B7781D600A4AD3F /* UIKit.framework */; };
 		FE3D63CF1B7781EB00A4AD3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D63CE1B7781EB00A4AD3F /* Foundation.framework */; };
@@ -215,6 +221,15 @@
 		FE20FD8C1BDD1E4500A59382 /* 过渡动画-按钮2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-按钮2.png"; sourceTree = "<group>"; };
 		FE20FD8D1BDD1E4500A59382 /* 过渡动画-控件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-控件.png"; sourceTree = "<group>"; };
 		FE20FD8E1BDD1E4500A59382 /* 金币.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金币.png"; sourceTree = "<group>"; };
+		FE20FD9D1BDD225800A59382 /* FourthProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthProjectViewController.h; sourceTree = "<group>"; };
+		FE20FD9E1BDD225800A59382 /* FourthProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthProjectViewController.m; sourceTree = "<group>"; };
+		FE20FD9F1BDD225800A59382 /* FourthProjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthProjectViewController.xib; sourceTree = "<group>"; };
+		FE20FDA21BDD230E00A59382 /* FourthProjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthProjectCell.h; sourceTree = "<group>"; };
+		FE20FDA31BDD230E00A59382 /* FourthProjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthProjectCell.m; sourceTree = "<group>"; };
+		FE20FDA41BDD230E00A59382 /* FourthProjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthProjectCell.xib; sourceTree = "<group>"; };
+		FE20FDAB1BDD2AFB00A59382 /* TestFrameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFrameViewController.h; sourceTree = "<group>"; };
+		FE20FDAC1BDD2AFB00A59382 /* TestFrameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFrameViewController.m; sourceTree = "<group>"; };
+		FE20FDAD1BDD2AFB00A59382 /* TestFrameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestFrameViewController.xib; sourceTree = "<group>"; };
 		FE3D633D1B7749A900A4AD3F /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		FE3D633E1B7749A900A4AD3F /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		FE3D63CC1B7781D600A4AD3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -558,6 +573,16 @@
 				FE20FD8E1BDD1E4500A59382 /* 金币.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FE20FDA71BDD2AB500A59382 /* VIew在控制器中frame的初始化 */ = {
+			isa = PBXGroup;
+			children = (
+				FE20FDAB1BDD2AFB00A59382 /* TestFrameViewController.h */,
+				FE20FDAC1BDD2AFB00A59382 /* TestFrameViewController.m */,
+				FE20FDAD1BDD2AFB00A59382 /* TestFrameViewController.xib */,
+			);
+			path = "VIew在控制器中frame的初始化";
 			sourceTree = "<group>";
 		};
 		FE3D65381B77A22400A4AD3F /* Helpers */ = {
@@ -975,7 +1000,14 @@
 		FE432BD51BDBD9DC0011FFBF /* v4.40.01 */ = {
 			isa = PBXGroup;
 			children = (
+				FE20FD9D1BDD225800A59382 /* FourthProjectViewController.h */,
+				FE20FD9E1BDD225800A59382 /* FourthProjectViewController.m */,
+				FE20FD9F1BDD225800A59382 /* FourthProjectViewController.xib */,
+				FE20FDA21BDD230E00A59382 /* FourthProjectCell.h */,
+				FE20FDA31BDD230E00A59382 /* FourthProjectCell.m */,
+				FE20FDA41BDD230E00A59382 /* FourthProjectCell.xib */,
 				FE20FD791BDD1E4500A59382 /* AutoLayout */,
+				FE20FDA71BDD2AB500A59382 /* VIew在控制器中frame的初始化 */,
 			);
 			path = v4.40.01;
 			sourceTree = "<group>";
@@ -1363,6 +1395,7 @@
 				FE3D66BA1B77A34400A4AD3F /* test4.jpg in Resources */,
 				FE8F09661B78E7F4001D2B08 /* star1.png in Resources */,
 				FE8F09491B78DC05001D2B08 /* Icon@2x.png in Resources */,
+				FE20FDAF1BDD2AFB00A59382 /* TestFrameViewController.xib in Resources */,
 				FE8F093F1B78DC05001D2B08 /* DazStarIcon@2x.png in Resources */,
 				FE8F09421B78DC05001D2B08 /* first.png in Resources */,
 				FE8F094A1B78DC05001D2B08 /* iTunesArtwork.png in Resources */,
@@ -1381,7 +1414,9 @@
 				FE3D66B51B77A34400A4AD3F /* tabbar_me@2x.png in Resources */,
 				FE3D66B21B77A34400A4AD3F /* tabbar_contacts@2x.png in Resources */,
 				FE945F461B79D87E00A99AF8 /* CUSSenderSnow11.png in Resources */,
+				FE20FDA61BDD230E00A59382 /* FourthProjectCell.xib in Resources */,
 				FE8F093E1B78DC05001D2B08 /* DazStarIcon.png in Resources */,
+				FE20FDA11BDD225800A59382 /* FourthProjectViewController.xib in Resources */,
 				FE3D67BA1B78996E00A4AD3F /* hand.png in Resources */,
 				FE945F361B79D87E00A99AF8 /* CUSSenderBirthday@2x.png in Resources */,
 				FE8F09351B78DC05001D2B08 /* DazFlakeIcon.png in Resources */,
@@ -1468,6 +1503,7 @@
 				FE945ED11B79BE7500A99AF8 /* WeChatVC.m in Sources */,
 				FE3D65B21B77A22400A4AD3F /* SDWebImageDownloader.m in Sources */,
 				FE20FD941BDD1E4500A59382 /* STModal.m in Sources */,
+				FE20FDA51BDD230E00A59382 /* FourthProjectCell.m in Sources */,
 				FE3D67131B77A62900A4AD3F /* MainModel.m in Sources */,
 				FE945F7A1B79DEED00A99AF8 /* FlowerLayer.m in Sources */,
 				FE3D65971B77A22400A4AD3F /* AFHTTPRequestOperationManager.m in Sources */,
@@ -1538,12 +1574,14 @@
 				FE3D659C1B77A22400A4AD3F /* AFURLRequestSerialization.m in Sources */,
 				FE3D67BE1B789A9200A4AD3F /* CAGradientLayerViewController.m in Sources */,
 				FE8F09531B78E20E001D2B08 /* HeartViewController.m in Sources */,
+				FE20FDAE1BDD2AFB00A59382 /* TestFrameViewController.m in Sources */,
 				FE945F8D1B7A0EB100A99AF8 /* ZXPaoMaViewController.m in Sources */,
 				FE8F09541B78E20E001D2B08 /* SnowViewController.m in Sources */,
 				FE3D65B01B77A22400A4AD3F /* SDWebImageCompat.m in Sources */,
 				FE3D65AF1B77A22400A4AD3F /* SDImageCache.m in Sources */,
 				FE8F096B1B78E832001D2B08 /* ButtonEffectVC.m in Sources */,
 				FE3D67B41B7896EE00A4AD3F /* IrregularView.m in Sources */,
+				FE20FDA01BDD225800A59382 /* FourthProjectViewController.m in Sources */,
 				FE3D65B31B77A22400A4AD3F /* SDWebImageDownloaderOperation.m in Sources */,
 				FE3D65A01B77A22400A4AD3F /* UIScrollView+SVPullToRefresh.m in Sources */,
 				FE945F7D1B79DEED00A99AF8 /* RainLayer.m in Sources */,

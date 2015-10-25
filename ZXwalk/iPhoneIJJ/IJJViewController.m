@@ -7,8 +7,7 @@
 //
 
 #import "IJJViewController.h"
-#import "OpenAccountTransitionViewController.h"
-
+#import "FourthProjectViewController.h"
 
 @interface IJJViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -80,8 +79,10 @@
     
     if (indexPath.row == 0) {
         
-        OpenAccountTransitionViewController *openVC = [OpenAccountTransitionViewController new];
-        [self.navigationController pushViewController:openVC animated:YES];
+
+        
+        FourthProjectViewController *vc = [FourthProjectViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
         
     }
     
@@ -90,14 +91,6 @@
 }
 
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
