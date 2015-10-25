@@ -7,6 +7,8 @@
 //
 
 #import "IJJViewController.h"
+#import "OpenAccountTransitionViewController.h"
+
 
 @interface IJJViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -78,7 +80,8 @@
     
     if (indexPath.row == 0) {
         
-        
+        OpenAccountTransitionViewController *openVC = [OpenAccountTransitionViewController new];
+        [self.navigationController pushViewController:openVC animated:YES];
         
     }
     

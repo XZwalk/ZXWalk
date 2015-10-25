@@ -156,6 +156,12 @@
 		FE432BE11BDBDED70011FFBF /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BE01BDBDED70011FFBF /* TransitionView.m */; settings = {ASSET_TAGS = (); }; };
 		FE432BE31BDBDEE60011FFBF /* TransitionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE432BE21BDBDEE60011FFBF /* TransitionView.xib */; settings = {ASSET_TAGS = (); }; };
 		FE432BE61BDBDFF00011FFBF /* STModal.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BE51BDBDFF00011FFBF /* STModal.m */; settings = {ASSET_TAGS = (); }; };
+		FE432BE91BDBE2250011FFBF /* 金币.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BE81BDBE2250011FFBF /* 金币.png */; settings = {ASSET_TAGS = (); }; };
+		FE432BEB1BDBE2340011FFBF /* 过渡动画-控件.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BEA1BDBE2340011FFBF /* 过渡动画-控件.png */; settings = {ASSET_TAGS = (); }; };
+		FE432BED1BDBE23A0011FFBF /* 过渡动画-按钮2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BEC1BDBE23A0011FFBF /* 过渡动画-按钮2.png */; settings = {ASSET_TAGS = (); }; };
+		FE432BEF1BDBE2400011FFBF /* 过渡动画-按钮1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BEE1BDBE2400011FFBF /* 过渡动画-按钮1.png */; settings = {ASSET_TAGS = (); }; };
+		FE432BF11BDBE24E0011FFBF /* 分割线.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BF01BDBE24E0011FFBF /* 分割线.png */; settings = {ASSET_TAGS = (); }; };
+		FE432BF41BDBE62A0011FFBF /* TransitionSever.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BF31BDBE62A0011FFBF /* TransitionSever.m */; settings = {ASSET_TAGS = (); }; };
 		FE4A236E1B75E28B00A39627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4A236D1B75E28B00A39627 /* main.m */; };
 		FE4A23711B75E28B00A39627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4A23701B75E28B00A39627 /* AppDelegate.m */; };
 		FE4A23731B75E28B00A39627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4A23721B75E28B00A39627 /* Images.xcassets */; };
@@ -494,6 +500,13 @@
 		FE432BE21BDBDEE60011FFBF /* TransitionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionView.xib; sourceTree = "<group>"; };
 		FE432BE41BDBDFF00011FFBF /* STModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STModal.h; sourceTree = "<group>"; };
 		FE432BE51BDBDFF00011FFBF /* STModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STModal.m; sourceTree = "<group>"; };
+		FE432BE81BDBE2250011FFBF /* 金币.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金币.png"; sourceTree = "<group>"; };
+		FE432BEA1BDBE2340011FFBF /* 过渡动画-控件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-控件.png"; sourceTree = "<group>"; };
+		FE432BEC1BDBE23A0011FFBF /* 过渡动画-按钮2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-按钮2.png"; sourceTree = "<group>"; };
+		FE432BEE1BDBE2400011FFBF /* 过渡动画-按钮1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-按钮1.png"; sourceTree = "<group>"; };
+		FE432BF01BDBE24E0011FFBF /* 分割线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分割线.png"; sourceTree = "<group>"; };
+		FE432BF21BDBE62A0011FFBF /* TransitionSever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionSever.h; sourceTree = "<group>"; };
+		FE432BF31BDBE62A0011FFBF /* TransitionSever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionSever.m; sourceTree = "<group>"; };
 		FE4A23681B75E28B00A39627 /* ZXwalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXwalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE4A236C1B75E28B00A39627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE4A236D1B75E28B00A39627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1211,6 +1224,7 @@
 				FE432BD91BDBDA660011FFBF /* Controllers */,
 				FE432BDA1BDBDA660011FFBF /* Models */,
 				FE432BDB1BDBDA660011FFBF /* Views */,
+				FE432BE71BDBE1A10011FFBF /* Resources */,
 			);
 			path = v4.40.01;
 			sourceTree = "<group>";
@@ -1229,6 +1243,8 @@
 			children = (
 				FE432BE41BDBDFF00011FFBF /* STModal.h */,
 				FE432BE51BDBDFF00011FFBF /* STModal.m */,
+				FE432BF21BDBE62A0011FFBF /* TransitionSever.h */,
+				FE432BF31BDBE62A0011FFBF /* TransitionSever.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1241,6 +1257,18 @@
 				FE432BE21BDBDEE60011FFBF /* TransitionView.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FE432BE71BDBE1A10011FFBF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE432BEA1BDBE2340011FFBF /* 过渡动画-控件.png */,
+				FE432BEE1BDBE2400011FFBF /* 过渡动画-按钮1.png */,
+				FE432BF01BDBE24E0011FFBF /* 分割线.png */,
+				FE432BEC1BDBE23A0011FFBF /* 过渡动画-按钮2.png */,
+				FE432BE81BDBE2250011FFBF /* 金币.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		FE4A235F1B75E28B00A39627 = {
@@ -1673,16 +1701,19 @@
 				FE945F301B79D87E00A99AF8 /* CUSSenderFlowerBG.jpg in Resources */,
 				FE8F093D1B78DC05001D2B08 /* DazSmoke.png in Resources */,
 				FE945F391B79D87E00A99AF8 /* CUSSenderRain@2x.png in Resources */,
+				FE432BF11BDBE24E0011FFBF /* 分割线.png in Resources */,
 				FE4A23731B75E28B00A39627 /* Images.xcassets in Resources */,
 				FE945F4E1B79D87E00A99AF8 /* CUSSenderSnow7.png in Resources */,
 				FE3D668D1B77A34400A4AD3F /* ImageSelectedSmallOn@3x.png in Resources */,
 				FE3D66811B77A34400A4AD3F /* ImageError@3x.png in Resources */,
 				FE3D66A91B77A34400A4AD3F /* photo5t.jpg in Resources */,
+				FE432BEB1BDBE2340011FFBF /* 过渡动画-控件.png in Resources */,
 				FE3D66B81B77A34400A4AD3F /* test2.jpg in Resources */,
 				FE8F09471B78DC05001D2B08 /* Icon-Small@2x.png in Resources */,
 				FE3D66B61B77A34400A4AD3F /* caoyuan.jpg in Resources */,
 				FE945F331B79D87E00A99AF8 /* CUSSenderWeixinBG@2x.jpg in Resources */,
 				FE8F09361B78DC05001D2B08 /* DazFlakeIcon@2x.png in Resources */,
+				FE432BEF1BDBE2400011FFBF /* 过渡动画-按钮1.png in Resources */,
 				FE945F3A1B79D87E00A99AF8 /* CUSSenderStar4.png in Resources */,
 				FE945F431B79D87E00A99AF8 /* CUSSenderFlower8.png in Resources */,
 				FE945F471B79D87E00A99AF8 /* CUSSenderSnow12.png in Resources */,
@@ -1699,6 +1730,7 @@
 				FE8F09331B78DC05001D2B08 /* DazFire.png in Resources */,
 				FE3D669A1B77A34400A4AD3F /* UIBarButtonItemGrid.png in Resources */,
 				FE3D66B31B77A34400A4AD3F /* tabbar_discover@2x.png in Resources */,
+				FE432BED1BDBE23A0011FFBF /* 过渡动画-按钮2.png in Resources */,
 				FE8F093B1B78DC05001D2B08 /* DazHeartIcon@2x.png in Resources */,
 				FE3D66B71B77A34400A4AD3F /* test.jpg in Resources */,
 				FE3D668E1B77A34400A4AD3F /* PlayButtonOverlayLarge.png in Resources */,
@@ -1711,6 +1743,7 @@
 				FE3D66AD1B77A34400A4AD3F /* photo7t.jpg in Resources */,
 				FE3D66921B77A34400A4AD3F /* PlayButtonOverlayLargeTap@2x.png in Resources */,
 				FE3D66B11B77A34400A4AD3F /* video_thumb.jpg in Resources */,
+				FE432BE91BDBE2250011FFBF /* 金币.png in Resources */,
 				FE945F311B79D87E00A99AF8 /* CUSSenderRainBG@2x.jpg in Resources */,
 				FE945F4F1B79D87E00A99AF8 /* CUSSenderSnow8.png in Resources */,
 				FE945F4B1B79D87E00A99AF8 /* CUSSenderSnow4.png in Resources */,
@@ -1858,6 +1891,7 @@
 				FE3D67BE1B789A9200A4AD3F /* CAGradientLayerViewController.m in Sources */,
 				FE8F09531B78E20E001D2B08 /* HeartViewController.m in Sources */,
 				FE945F8D1B7A0EB100A99AF8 /* ZXPaoMaViewController.m in Sources */,
+				FE432BF41BDBE62A0011FFBF /* TransitionSever.m in Sources */,
 				FE8F09541B78E20E001D2B08 /* SnowViewController.m in Sources */,
 				FE3D65A51B77A22400A4AD3F /* MWGridCell.m in Sources */,
 				FE3D65A41B77A22400A4AD3F /* MWCaptionView.m in Sources */,
