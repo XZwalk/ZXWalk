@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE20FD8F1BDD1E4500A59382 /* OpenAccountTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE20FD7C1BDD1E4500A59382 /* OpenAccountTransitionViewController.m */; };
+		FE20FD901BDD1E4500A59382 /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE20FD7F1BDD1E4500A59382 /* TransitionView.m */; };
+		FE20FD911BDD1E4500A59382 /* TransitionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD801BDD1E4500A59382 /* TransitionView.xib */; };
+		FE20FD921BDD1E4500A59382 /* WrongAutoLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE20FD821BDD1E4500A59382 /* WrongAutoLayoutView.m */; };
+		FE20FD931BDD1E4500A59382 /* WrongAutoLayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD831BDD1E4500A59382 /* WrongAutoLayoutView.xib */; };
+		FE20FD941BDD1E4500A59382 /* STModal.m in Sources */ = {isa = PBXBuildFile; fileRef = FE20FD861BDD1E4500A59382 /* STModal.m */; };
+		FE20FD951BDD1E4500A59382 /* TransitionSever.m in Sources */ = {isa = PBXBuildFile; fileRef = FE20FD881BDD1E4500A59382 /* TransitionSever.m */; };
+		FE20FD961BDD1E4500A59382 /* 分割线.png in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD8A1BDD1E4500A59382 /* 分割线.png */; };
+		FE20FD971BDD1E4500A59382 /* 过渡动画-按钮1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD8B1BDD1E4500A59382 /* 过渡动画-按钮1.png */; };
+		FE20FD981BDD1E4500A59382 /* 过渡动画-按钮2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD8C1BDD1E4500A59382 /* 过渡动画-按钮2.png */; };
+		FE20FD991BDD1E4500A59382 /* 过渡动画-控件.png in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD8D1BDD1E4500A59382 /* 过渡动画-控件.png */; };
+		FE20FD9A1BDD1E4500A59382 /* 金币.png in Resources */ = {isa = PBXBuildFile; fileRef = FE20FD8E1BDD1E4500A59382 /* 金币.png */; };
 		FE3D633F1B7749A900A4AD3F /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D633E1B7749A900A4AD3F /* TabBarViewController.m */; };
 		FE3D63CD1B7781D600A4AD3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D63CC1B7781D600A4AD3F /* UIKit.framework */; };
 		FE3D63CF1B7781EB00A4AD3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3D63CE1B7781EB00A4AD3F /* Foundation.framework */; };
@@ -22,18 +34,6 @@
 		FE3D659E1B77A22400A4AD3F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D654C1B77A22400A4AD3F /* AFURLSessionManager.m */; };
 		FE3D659F1B77A22400A4AD3F /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65501B77A22400A4AD3F /* UIScrollView+SVInfiniteScrolling.m */; };
 		FE3D65A01B77A22400A4AD3F /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65521B77A22400A4AD3F /* UIScrollView+SVPullToRefresh.m */; };
-		FE3D65A11B77A22400A4AD3F /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65561B77A22400A4AD3F /* DACircularProgressView.m */; };
-		FE3D65A21B77A22400A4AD3F /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65581B77A22400A4AD3F /* DALabeledCircularProgressView.m */; };
-		FE3D65A31B77A22400A4AD3F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D655B1B77A22400A4AD3F /* MBProgressHUD.m */; };
-		FE3D65A41B77A22400A4AD3F /* MWCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D655E1B77A22400A4AD3F /* MWCaptionView.m */; };
-		FE3D65A51B77A22400A4AD3F /* MWGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65611B77A22400A4AD3F /* MWGridCell.m */; };
-		FE3D65A61B77A22400A4AD3F /* MWGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65631B77A22400A4AD3F /* MWGridViewController.m */; };
-		FE3D65A71B77A22400A4AD3F /* MWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65651B77A22400A4AD3F /* MWPhoto.m */; };
-		FE3D65A81B77A22400A4AD3F /* MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65671B77A22400A4AD3F /* MWPhotoBrowser.m */; };
-		FE3D65A91B77A22400A4AD3F /* MWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D656B1B77A22400A4AD3F /* MWTapDetectingImageView.m */; };
-		FE3D65AA1B77A22400A4AD3F /* MWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D656D1B77A22400A4AD3F /* MWTapDetectingView.m */; };
-		FE3D65AB1B77A22400A4AD3F /* MWZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D656F1B77A22400A4AD3F /* MWZoomingScrollView.m */; };
-		FE3D65AC1B77A22400A4AD3F /* UIImage+MWPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65711B77A22400A4AD3F /* UIImage+MWPhotoBrowser.m */; };
 		FE3D65AD1B77A22400A4AD3F /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65741B77A22400A4AD3F /* MKAnnotationView+WebCache.m */; };
 		FE3D65AE1B77A22400A4AD3F /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65761B77A22400A4AD3F /* NSData+ImageContentType.m */; };
 		FE3D65AF1B77A22400A4AD3F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65781B77A22400A4AD3F /* SDImageCache.m */; };
@@ -51,57 +51,6 @@
 		FE3D65BB1B77A22400A4AD3F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65911B77A22400A4AD3F /* UIImageView+WebCache.m */; };
 		FE3D65BC1B77A22400A4AD3F /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65931B77A22400A4AD3F /* UIView+WebCacheOperation.m */; };
 		FE3D65BD1B77A22400A4AD3F /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D65951B77A22400A4AD3F /* UIViewAdditions.m */; };
-		FE3D667F1B77A34400A4AD3F /* ImageError.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66401B77A34400A4AD3F /* ImageError.png */; };
-		FE3D66801B77A34400A4AD3F /* ImageError@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66411B77A34400A4AD3F /* ImageError@2x.png */; };
-		FE3D66811B77A34400A4AD3F /* ImageError@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66421B77A34400A4AD3F /* ImageError@3x.png */; };
-		FE3D66821B77A34400A4AD3F /* ImageSelectedOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66431B77A34400A4AD3F /* ImageSelectedOff.png */; };
-		FE3D66831B77A34400A4AD3F /* ImageSelectedOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66441B77A34400A4AD3F /* ImageSelectedOff@2x.png */; };
-		FE3D66841B77A34400A4AD3F /* ImageSelectedOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66451B77A34400A4AD3F /* ImageSelectedOff@3x.png */; };
-		FE3D66851B77A34400A4AD3F /* ImageSelectedOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66461B77A34400A4AD3F /* ImageSelectedOn.png */; };
-		FE3D66861B77A34400A4AD3F /* ImageSelectedOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66471B77A34400A4AD3F /* ImageSelectedOn@2x.png */; };
-		FE3D66871B77A34400A4AD3F /* ImageSelectedOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66481B77A34400A4AD3F /* ImageSelectedOn@3x.png */; };
-		FE3D66881B77A34400A4AD3F /* ImageSelectedSmallOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66491B77A34400A4AD3F /* ImageSelectedSmallOff.png */; };
-		FE3D66891B77A34400A4AD3F /* ImageSelectedSmallOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D664A1B77A34400A4AD3F /* ImageSelectedSmallOff@2x.png */; };
-		FE3D668A1B77A34400A4AD3F /* ImageSelectedSmallOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D664B1B77A34400A4AD3F /* ImageSelectedSmallOff@3x.png */; };
-		FE3D668B1B77A34400A4AD3F /* ImageSelectedSmallOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D664C1B77A34400A4AD3F /* ImageSelectedSmallOn.png */; };
-		FE3D668C1B77A34400A4AD3F /* ImageSelectedSmallOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D664D1B77A34400A4AD3F /* ImageSelectedSmallOn@2x.png */; };
-		FE3D668D1B77A34400A4AD3F /* ImageSelectedSmallOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D664E1B77A34400A4AD3F /* ImageSelectedSmallOn@3x.png */; };
-		FE3D668E1B77A34400A4AD3F /* PlayButtonOverlayLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D664F1B77A34400A4AD3F /* PlayButtonOverlayLarge.png */; };
-		FE3D668F1B77A34400A4AD3F /* PlayButtonOverlayLarge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66501B77A34400A4AD3F /* PlayButtonOverlayLarge@2x.png */; };
-		FE3D66901B77A34400A4AD3F /* PlayButtonOverlayLarge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66511B77A34400A4AD3F /* PlayButtonOverlayLarge@3x.png */; };
-		FE3D66911B77A34400A4AD3F /* PlayButtonOverlayLargeTap.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66521B77A34400A4AD3F /* PlayButtonOverlayLargeTap.png */; };
-		FE3D66921B77A34400A4AD3F /* PlayButtonOverlayLargeTap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66531B77A34400A4AD3F /* PlayButtonOverlayLargeTap@2x.png */; };
-		FE3D66931B77A34400A4AD3F /* PlayButtonOverlayLargeTap@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66541B77A34400A4AD3F /* PlayButtonOverlayLargeTap@3x.png */; };
-		FE3D66941B77A34400A4AD3F /* UIBarButtonItemArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66551B77A34400A4AD3F /* UIBarButtonItemArrowLeft.png */; };
-		FE3D66951B77A34400A4AD3F /* UIBarButtonItemArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66561B77A34400A4AD3F /* UIBarButtonItemArrowLeft@2x.png */; };
-		FE3D66961B77A34400A4AD3F /* UIBarButtonItemArrowLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66571B77A34400A4AD3F /* UIBarButtonItemArrowLeft@3x.png */; };
-		FE3D66971B77A34400A4AD3F /* UIBarButtonItemArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66581B77A34400A4AD3F /* UIBarButtonItemArrowRight.png */; };
-		FE3D66981B77A34400A4AD3F /* UIBarButtonItemArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66591B77A34400A4AD3F /* UIBarButtonItemArrowRight@2x.png */; };
-		FE3D66991B77A34400A4AD3F /* UIBarButtonItemArrowRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D665A1B77A34400A4AD3F /* UIBarButtonItemArrowRight@3x.png */; };
-		FE3D669A1B77A34400A4AD3F /* UIBarButtonItemGrid.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D665B1B77A34400A4AD3F /* UIBarButtonItemGrid.png */; };
-		FE3D669B1B77A34400A4AD3F /* UIBarButtonItemGrid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D665C1B77A34400A4AD3F /* UIBarButtonItemGrid@2x.png */; };
-		FE3D669C1B77A34400A4AD3F /* UIBarButtonItemGrid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D665D1B77A34400A4AD3F /* UIBarButtonItemGrid@3x.png */; };
-		FE3D669D1B77A34400A4AD3F /* VideoOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D665E1B77A34400A4AD3F /* VideoOverlay.png */; };
-		FE3D669E1B77A34400A4AD3F /* VideoOverlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D665F1B77A34400A4AD3F /* VideoOverlay@2x.png */; };
-		FE3D669F1B77A34400A4AD3F /* VideoOverlay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66601B77A34400A4AD3F /* VideoOverlay@3x.png */; };
-		FE3D66A01B77A34400A4AD3F /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66621B77A34400A4AD3F /* photo1.jpg */; };
-		FE3D66A11B77A34400A4AD3F /* photo1t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66631B77A34400A4AD3F /* photo1t.jpg */; };
-		FE3D66A21B77A34400A4AD3F /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66641B77A34400A4AD3F /* photo2.jpg */; };
-		FE3D66A31B77A34400A4AD3F /* photo2t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66651B77A34400A4AD3F /* photo2t.jpg */; };
-		FE3D66A41B77A34400A4AD3F /* photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66661B77A34400A4AD3F /* photo3.jpg */; };
-		FE3D66A51B77A34400A4AD3F /* photo3t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66671B77A34400A4AD3F /* photo3t.jpg */; };
-		FE3D66A61B77A34400A4AD3F /* photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66681B77A34400A4AD3F /* photo4.jpg */; };
-		FE3D66A71B77A34400A4AD3F /* photo4t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66691B77A34400A4AD3F /* photo4t.jpg */; };
-		FE3D66A81B77A34400A4AD3F /* photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D666A1B77A34400A4AD3F /* photo5.jpg */; };
-		FE3D66A91B77A34400A4AD3F /* photo5t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D666B1B77A34400A4AD3F /* photo5t.jpg */; };
-		FE3D66AA1B77A34400A4AD3F /* photo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D666C1B77A34400A4AD3F /* photo6.jpg */; };
-		FE3D66AB1B77A34400A4AD3F /* photo6t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D666D1B77A34400A4AD3F /* photo6t.jpg */; };
-		FE3D66AC1B77A34400A4AD3F /* photo7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D666E1B77A34400A4AD3F /* photo7.jpg */; };
-		FE3D66AD1B77A34400A4AD3F /* photo7t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D666F1B77A34400A4AD3F /* photo7t.jpg */; };
-		FE3D66AE1B77A34400A4AD3F /* photo8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66701B77A34400A4AD3F /* photo8.jpg */; };
-		FE3D66AF1B77A34400A4AD3F /* photo8t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66711B77A34400A4AD3F /* photo8t.jpg */; };
-		FE3D66B01B77A34400A4AD3F /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66721B77A34400A4AD3F /* video.mp4 */; };
-		FE3D66B11B77A34400A4AD3F /* video_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66731B77A34400A4AD3F /* video_thumb.jpg */; };
 		FE3D66B21B77A34400A4AD3F /* tabbar_contacts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66751B77A34400A4AD3F /* tabbar_contacts@2x.png */; };
 		FE3D66B31B77A34400A4AD3F /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66761B77A34400A4AD3F /* tabbar_discover@2x.png */; };
 		FE3D66B41B77A34400A4AD3F /* tabbar_mainframe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3D66771B77A34400A4AD3F /* tabbar_mainframe@2x.png */; };
@@ -136,8 +85,6 @@
 		FE3D67131B77A62900A4AD3F /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D67071B77A62900A4AD3F /* MainModel.m */; };
 		FE3D67141B77A62900A4AD3F /* SpreadCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D67091B77A62900A4AD3F /* SpreadCollectionController.m */; };
 		FE3D67151B77A62900A4AD3F /* MyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D670B1B77A62900A4AD3F /* MyDemoViewController.m */; };
-		FE3D671D1B77A63600A4AD3F /* MWPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D671A1B77A63600A4AD3F /* MWPhotoBrowserController.m */; };
-		FE3D671E1B77A63600A4AD3F /* ThirdPartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D671C1B77A63600A4AD3F /* ThirdPartViewController.m */; };
 		FE3D67921B788E4500A4AD3F /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D678A1B788E4400A4AD3F /* GCDGroup.m */; };
 		FE3D67931B788E4500A4AD3F /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D678C1B788E4400A4AD3F /* GCDQueue.m */; };
 		FE3D67941B788E4500A4AD3F /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D678E1B788E4400A4AD3F /* GCDSemaphore.m */; };
@@ -152,16 +99,6 @@
 		FE3D67BE1B789A9200A4AD3F /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D67BD1B789A9200A4AD3F /* CAGradientLayerViewController.m */; };
 		FE3D67C21B78ACE300A4AD3F /* GradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D67C11B78ACE300A4AD3F /* GradientProgressView.m */; };
 		FE3D67C61B78ACF300A4AD3F /* GradientProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D67C51B78ACF300A4AD3F /* GradientProgressViewController.m */; };
-		FE432BDE1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BDD1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m */; settings = {ASSET_TAGS = (); }; };
-		FE432BE11BDBDED70011FFBF /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BE01BDBDED70011FFBF /* TransitionView.m */; settings = {ASSET_TAGS = (); }; };
-		FE432BE31BDBDEE60011FFBF /* TransitionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE432BE21BDBDEE60011FFBF /* TransitionView.xib */; settings = {ASSET_TAGS = (); }; };
-		FE432BE61BDBDFF00011FFBF /* STModal.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BE51BDBDFF00011FFBF /* STModal.m */; settings = {ASSET_TAGS = (); }; };
-		FE432BE91BDBE2250011FFBF /* 金币.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BE81BDBE2250011FFBF /* 金币.png */; settings = {ASSET_TAGS = (); }; };
-		FE432BEB1BDBE2340011FFBF /* 过渡动画-控件.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BEA1BDBE2340011FFBF /* 过渡动画-控件.png */; settings = {ASSET_TAGS = (); }; };
-		FE432BED1BDBE23A0011FFBF /* 过渡动画-按钮2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BEC1BDBE23A0011FFBF /* 过渡动画-按钮2.png */; settings = {ASSET_TAGS = (); }; };
-		FE432BEF1BDBE2400011FFBF /* 过渡动画-按钮1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BEE1BDBE2400011FFBF /* 过渡动画-按钮1.png */; settings = {ASSET_TAGS = (); }; };
-		FE432BF11BDBE24E0011FFBF /* 分割线.png in Resources */ = {isa = PBXBuildFile; fileRef = FE432BF01BDBE24E0011FFBF /* 分割线.png */; settings = {ASSET_TAGS = (); }; };
-		FE432BF41BDBE62A0011FFBF /* TransitionSever.m in Sources */ = {isa = PBXBuildFile; fileRef = FE432BF31BDBE62A0011FFBF /* TransitionSever.m */; settings = {ASSET_TAGS = (); }; };
 		FE4A236E1B75E28B00A39627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4A236D1B75E28B00A39627 /* main.m */; };
 		FE4A23711B75E28B00A39627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4A23701B75E28B00A39627 /* AppDelegate.m */; };
 		FE4A23731B75E28B00A39627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4A23721B75E28B00A39627 /* Images.xcassets */; };
@@ -247,7 +184,7 @@
 		FE945F861B79F3A700A99AF8 /* PictureChangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FE945F851B79F3A700A99AF8 /* PictureChangeVC.m */; };
 		FE945F8A1B79FB5700A99AF8 /* ZXPaoMaView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE945F891B79FB5700A99AF8 /* ZXPaoMaView.m */; };
 		FE945F8D1B7A0EB100A99AF8 /* ZXPaoMaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE945F8C1B7A0EB100A99AF8 /* ZXPaoMaViewController.m */; };
-		FEE89E9B1BDB331600458746 /* IJJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE89E9A1BDB331600458746 /* IJJViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FEE89E9B1BDB331600458746 /* IJJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE89E9A1BDB331600458746 /* IJJViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,6 +198,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE20FD7B1BDD1E4500A59382 /* OpenAccountTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenAccountTransitionViewController.h; sourceTree = "<group>"; };
+		FE20FD7C1BDD1E4500A59382 /* OpenAccountTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenAccountTransitionViewController.m; sourceTree = "<group>"; };
+		FE20FD7E1BDD1E4500A59382 /* TransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionView.h; sourceTree = "<group>"; };
+		FE20FD7F1BDD1E4500A59382 /* TransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionView.m; sourceTree = "<group>"; };
+		FE20FD801BDD1E4500A59382 /* TransitionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionView.xib; sourceTree = "<group>"; };
+		FE20FD811BDD1E4500A59382 /* WrongAutoLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrongAutoLayoutView.h; sourceTree = "<group>"; };
+		FE20FD821BDD1E4500A59382 /* WrongAutoLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrongAutoLayoutView.m; sourceTree = "<group>"; };
+		FE20FD831BDD1E4500A59382 /* WrongAutoLayoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WrongAutoLayoutView.xib; sourceTree = "<group>"; };
+		FE20FD851BDD1E4500A59382 /* STModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STModal.h; sourceTree = "<group>"; };
+		FE20FD861BDD1E4500A59382 /* STModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STModal.m; sourceTree = "<group>"; };
+		FE20FD871BDD1E4500A59382 /* TransitionSever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionSever.h; sourceTree = "<group>"; };
+		FE20FD881BDD1E4500A59382 /* TransitionSever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionSever.m; sourceTree = "<group>"; };
+		FE20FD8A1BDD1E4500A59382 /* 分割线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分割线.png"; sourceTree = "<group>"; };
+		FE20FD8B1BDD1E4500A59382 /* 过渡动画-按钮1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-按钮1.png"; sourceTree = "<group>"; };
+		FE20FD8C1BDD1E4500A59382 /* 过渡动画-按钮2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-按钮2.png"; sourceTree = "<group>"; };
+		FE20FD8D1BDD1E4500A59382 /* 过渡动画-控件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-控件.png"; sourceTree = "<group>"; };
+		FE20FD8E1BDD1E4500A59382 /* 金币.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金币.png"; sourceTree = "<group>"; };
 		FE3D633D1B7749A900A4AD3F /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		FE3D633E1B7749A900A4AD3F /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		FE3D63CC1B7781D600A4AD3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -290,33 +244,6 @@
 		FE3D65501B77A22400A4AD3F /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
 		FE3D65511B77A22400A4AD3F /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
 		FE3D65521B77A22400A4AD3F /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
-		FE3D65551B77A22400A4AD3F /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
-		FE3D65561B77A22400A4AD3F /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
-		FE3D65571B77A22400A4AD3F /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
-		FE3D65581B77A22400A4AD3F /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
-		FE3D655A1B77A22400A4AD3F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		FE3D655B1B77A22400A4AD3F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		FE3D655D1B77A22400A4AD3F /* MWCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCaptionView.h; sourceTree = "<group>"; };
-		FE3D655E1B77A22400A4AD3F /* MWCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWCaptionView.m; sourceTree = "<group>"; };
-		FE3D655F1B77A22400A4AD3F /* MWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWCommon.h; sourceTree = "<group>"; };
-		FE3D65601B77A22400A4AD3F /* MWGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGridCell.h; sourceTree = "<group>"; };
-		FE3D65611B77A22400A4AD3F /* MWGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGridCell.m; sourceTree = "<group>"; };
-		FE3D65621B77A22400A4AD3F /* MWGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGridViewController.h; sourceTree = "<group>"; };
-		FE3D65631B77A22400A4AD3F /* MWGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGridViewController.m; sourceTree = "<group>"; };
-		FE3D65641B77A22400A4AD3F /* MWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhoto.h; sourceTree = "<group>"; };
-		FE3D65651B77A22400A4AD3F /* MWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhoto.m; sourceTree = "<group>"; };
-		FE3D65661B77A22400A4AD3F /* MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowser.h; sourceTree = "<group>"; };
-		FE3D65671B77A22400A4AD3F /* MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowser.m; sourceTree = "<group>"; };
-		FE3D65681B77A22400A4AD3F /* MWPhotoBrowserPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowserPrivate.h; sourceTree = "<group>"; };
-		FE3D65691B77A22400A4AD3F /* MWPhotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoProtocol.h; sourceTree = "<group>"; };
-		FE3D656A1B77A22400A4AD3F /* MWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingImageView.h; sourceTree = "<group>"; };
-		FE3D656B1B77A22400A4AD3F /* MWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingImageView.m; sourceTree = "<group>"; };
-		FE3D656C1B77A22400A4AD3F /* MWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTapDetectingView.h; sourceTree = "<group>"; };
-		FE3D656D1B77A22400A4AD3F /* MWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTapDetectingView.m; sourceTree = "<group>"; };
-		FE3D656E1B77A22400A4AD3F /* MWZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWZoomingScrollView.h; sourceTree = "<group>"; };
-		FE3D656F1B77A22400A4AD3F /* MWZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWZoomingScrollView.m; sourceTree = "<group>"; };
-		FE3D65701B77A22400A4AD3F /* UIImage+MWPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MWPhotoBrowser.h"; sourceTree = "<group>"; };
-		FE3D65711B77A22400A4AD3F /* UIImage+MWPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MWPhotoBrowser.m"; sourceTree = "<group>"; };
 		FE3D65731B77A22400A4AD3F /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		FE3D65741B77A22400A4AD3F /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		FE3D65751B77A22400A4AD3F /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -352,57 +279,6 @@
 		FE3D65931B77A22400A4AD3F /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		FE3D65941B77A22400A4AD3F /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
 		FE3D65951B77A22400A4AD3F /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
-		FE3D66401B77A34400A4AD3F /* ImageError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageError.png; sourceTree = "<group>"; };
-		FE3D66411B77A34400A4AD3F /* ImageError@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageError@2x.png"; sourceTree = "<group>"; };
-		FE3D66421B77A34400A4AD3F /* ImageError@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageError@3x.png"; sourceTree = "<group>"; };
-		FE3D66431B77A34400A4AD3F /* ImageSelectedOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageSelectedOff.png; sourceTree = "<group>"; };
-		FE3D66441B77A34400A4AD3F /* ImageSelectedOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageSelectedOff@2x.png"; sourceTree = "<group>"; };
-		FE3D66451B77A34400A4AD3F /* ImageSelectedOff@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageSelectedOff@3x.png"; sourceTree = "<group>"; };
-		FE3D66461B77A34400A4AD3F /* ImageSelectedOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageSelectedOn.png; sourceTree = "<group>"; };
-		FE3D66471B77A34400A4AD3F /* ImageSelectedOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageSelectedOn@2x.png"; sourceTree = "<group>"; };
-		FE3D66481B77A34400A4AD3F /* ImageSelectedOn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageSelectedOn@3x.png"; sourceTree = "<group>"; };
-		FE3D66491B77A34400A4AD3F /* ImageSelectedSmallOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageSelectedSmallOff.png; sourceTree = "<group>"; };
-		FE3D664A1B77A34400A4AD3F /* ImageSelectedSmallOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageSelectedSmallOff@2x.png"; sourceTree = "<group>"; };
-		FE3D664B1B77A34400A4AD3F /* ImageSelectedSmallOff@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageSelectedSmallOff@3x.png"; sourceTree = "<group>"; };
-		FE3D664C1B77A34400A4AD3F /* ImageSelectedSmallOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageSelectedSmallOn.png; sourceTree = "<group>"; };
-		FE3D664D1B77A34400A4AD3F /* ImageSelectedSmallOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageSelectedSmallOn@2x.png"; sourceTree = "<group>"; };
-		FE3D664E1B77A34400A4AD3F /* ImageSelectedSmallOn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ImageSelectedSmallOn@3x.png"; sourceTree = "<group>"; };
-		FE3D664F1B77A34400A4AD3F /* PlayButtonOverlayLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButtonOverlayLarge.png; sourceTree = "<group>"; };
-		FE3D66501B77A34400A4AD3F /* PlayButtonOverlayLarge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButtonOverlayLarge@2x.png"; sourceTree = "<group>"; };
-		FE3D66511B77A34400A4AD3F /* PlayButtonOverlayLarge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButtonOverlayLarge@3x.png"; sourceTree = "<group>"; };
-		FE3D66521B77A34400A4AD3F /* PlayButtonOverlayLargeTap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButtonOverlayLargeTap.png; sourceTree = "<group>"; };
-		FE3D66531B77A34400A4AD3F /* PlayButtonOverlayLargeTap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButtonOverlayLargeTap@2x.png"; sourceTree = "<group>"; };
-		FE3D66541B77A34400A4AD3F /* PlayButtonOverlayLargeTap@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PlayButtonOverlayLargeTap@3x.png"; sourceTree = "<group>"; };
-		FE3D66551B77A34400A4AD3F /* UIBarButtonItemArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBarButtonItemArrowLeft.png; sourceTree = "<group>"; };
-		FE3D66561B77A34400A4AD3F /* UIBarButtonItemArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowLeft@2x.png"; sourceTree = "<group>"; };
-		FE3D66571B77A34400A4AD3F /* UIBarButtonItemArrowLeft@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowLeft@3x.png"; sourceTree = "<group>"; };
-		FE3D66581B77A34400A4AD3F /* UIBarButtonItemArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBarButtonItemArrowRight.png; sourceTree = "<group>"; };
-		FE3D66591B77A34400A4AD3F /* UIBarButtonItemArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowRight@2x.png"; sourceTree = "<group>"; };
-		FE3D665A1B77A34400A4AD3F /* UIBarButtonItemArrowRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemArrowRight@3x.png"; sourceTree = "<group>"; };
-		FE3D665B1B77A34400A4AD3F /* UIBarButtonItemGrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIBarButtonItemGrid.png; sourceTree = "<group>"; };
-		FE3D665C1B77A34400A4AD3F /* UIBarButtonItemGrid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemGrid@2x.png"; sourceTree = "<group>"; };
-		FE3D665D1B77A34400A4AD3F /* UIBarButtonItemGrid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIBarButtonItemGrid@3x.png"; sourceTree = "<group>"; };
-		FE3D665E1B77A34400A4AD3F /* VideoOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VideoOverlay.png; sourceTree = "<group>"; };
-		FE3D665F1B77A34400A4AD3F /* VideoOverlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoOverlay@2x.png"; sourceTree = "<group>"; };
-		FE3D66601B77A34400A4AD3F /* VideoOverlay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoOverlay@3x.png"; sourceTree = "<group>"; };
-		FE3D66621B77A34400A4AD3F /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpg; sourceTree = "<group>"; };
-		FE3D66631B77A34400A4AD3F /* photo1t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1t.jpg; sourceTree = "<group>"; };
-		FE3D66641B77A34400A4AD3F /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpg; sourceTree = "<group>"; };
-		FE3D66651B77A34400A4AD3F /* photo2t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2t.jpg; sourceTree = "<group>"; };
-		FE3D66661B77A34400A4AD3F /* photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3.jpg; sourceTree = "<group>"; };
-		FE3D66671B77A34400A4AD3F /* photo3t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3t.jpg; sourceTree = "<group>"; };
-		FE3D66681B77A34400A4AD3F /* photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4.jpg; sourceTree = "<group>"; };
-		FE3D66691B77A34400A4AD3F /* photo4t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4t.jpg; sourceTree = "<group>"; };
-		FE3D666A1B77A34400A4AD3F /* photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5.jpg; sourceTree = "<group>"; };
-		FE3D666B1B77A34400A4AD3F /* photo5t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5t.jpg; sourceTree = "<group>"; };
-		FE3D666C1B77A34400A4AD3F /* photo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo6.jpg; sourceTree = "<group>"; };
-		FE3D666D1B77A34400A4AD3F /* photo6t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo6t.jpg; sourceTree = "<group>"; };
-		FE3D666E1B77A34400A4AD3F /* photo7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo7.jpg; sourceTree = "<group>"; };
-		FE3D666F1B77A34400A4AD3F /* photo7t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo7t.jpg; sourceTree = "<group>"; };
-		FE3D66701B77A34400A4AD3F /* photo8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo8.jpg; sourceTree = "<group>"; };
-		FE3D66711B77A34400A4AD3F /* photo8t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo8t.jpg; sourceTree = "<group>"; };
-		FE3D66721B77A34400A4AD3F /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
-		FE3D66731B77A34400A4AD3F /* video_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = video_thumb.jpg; sourceTree = "<group>"; };
 		FE3D66751B77A34400A4AD3F /* tabbar_contacts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_contacts@2x.png"; sourceTree = "<group>"; };
 		FE3D66761B77A34400A4AD3F /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x.png"; sourceTree = "<group>"; };
 		FE3D66771B77A34400A4AD3F /* tabbar_mainframe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mainframe@2x.png"; sourceTree = "<group>"; };
@@ -462,10 +338,6 @@
 		FE3D67091B77A62900A4AD3F /* SpreadCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpreadCollectionController.m; sourceTree = "<group>"; };
 		FE3D670A1B77A62900A4AD3F /* MyDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDemoViewController.h; sourceTree = "<group>"; };
 		FE3D670B1B77A62900A4AD3F /* MyDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDemoViewController.m; sourceTree = "<group>"; };
-		FE3D67191B77A63600A4AD3F /* MWPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoBrowserController.h; sourceTree = "<group>"; };
-		FE3D671A1B77A63600A4AD3F /* MWPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoBrowserController.m; sourceTree = "<group>"; };
-		FE3D671B1B77A63600A4AD3F /* ThirdPartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartViewController.h; sourceTree = "<group>"; };
-		FE3D671C1B77A63600A4AD3F /* ThirdPartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPartViewController.m; sourceTree = "<group>"; };
 		FE3D67881B788E4400A4AD3F /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
 		FE3D67891B788E4400A4AD3F /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
 		FE3D678A1B788E4400A4AD3F /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
@@ -493,20 +365,6 @@
 		FE3D67C11B78ACE300A4AD3F /* GradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressView.m; sourceTree = "<group>"; };
 		FE3D67C41B78ACF300A4AD3F /* GradientProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientProgressViewController.h; sourceTree = "<group>"; };
 		FE3D67C51B78ACF300A4AD3F /* GradientProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientProgressViewController.m; sourceTree = "<group>"; };
-		FE432BDC1BDBDAE70011FFBF /* OpenAccountTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenAccountTransitionViewController.h; sourceTree = "<group>"; };
-		FE432BDD1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenAccountTransitionViewController.m; sourceTree = "<group>"; };
-		FE432BDF1BDBDED70011FFBF /* TransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionView.h; sourceTree = "<group>"; };
-		FE432BE01BDBDED70011FFBF /* TransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionView.m; sourceTree = "<group>"; };
-		FE432BE21BDBDEE60011FFBF /* TransitionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionView.xib; sourceTree = "<group>"; };
-		FE432BE41BDBDFF00011FFBF /* STModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STModal.h; sourceTree = "<group>"; };
-		FE432BE51BDBDFF00011FFBF /* STModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STModal.m; sourceTree = "<group>"; };
-		FE432BE81BDBE2250011FFBF /* 金币.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "金币.png"; sourceTree = "<group>"; };
-		FE432BEA1BDBE2340011FFBF /* 过渡动画-控件.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-控件.png"; sourceTree = "<group>"; };
-		FE432BEC1BDBE23A0011FFBF /* 过渡动画-按钮2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-按钮2.png"; sourceTree = "<group>"; };
-		FE432BEE1BDBE2400011FFBF /* 过渡动画-按钮1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "过渡动画-按钮1.png"; sourceTree = "<group>"; };
-		FE432BF01BDBE24E0011FFBF /* 分割线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分割线.png"; sourceTree = "<group>"; };
-		FE432BF21BDBE62A0011FFBF /* TransitionSever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionSever.h; sourceTree = "<group>"; };
-		FE432BF31BDBE62A0011FFBF /* TransitionSever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionSever.m; sourceTree = "<group>"; };
 		FE4A23681B75E28B00A39627 /* ZXwalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXwalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE4A236C1B75E28B00A39627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE4A236D1B75E28B00A39627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -645,6 +503,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE20FD791BDD1E4500A59382 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FE20FD7A1BDD1E4500A59382 /* Controllers */,
+				FE20FD841BDD1E4500A59382 /* Models */,
+				FE20FD7D1BDD1E4500A59382 /* Views */,
+				FE20FD891BDD1E4500A59382 /* Resources */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		FE20FD7A1BDD1E4500A59382 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE20FD7B1BDD1E4500A59382 /* OpenAccountTransitionViewController.h */,
+				FE20FD7C1BDD1E4500A59382 /* OpenAccountTransitionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FE20FD7D1BDD1E4500A59382 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE20FD7E1BDD1E4500A59382 /* TransitionView.h */,
+				FE20FD7F1BDD1E4500A59382 /* TransitionView.m */,
+				FE20FD801BDD1E4500A59382 /* TransitionView.xib */,
+				FE20FD811BDD1E4500A59382 /* WrongAutoLayoutView.h */,
+				FE20FD821BDD1E4500A59382 /* WrongAutoLayoutView.m */,
+				FE20FD831BDD1E4500A59382 /* WrongAutoLayoutView.xib */,
+			);
+			name = Views;
+			path = Controllers/Views;
+			sourceTree = "<group>";
+		};
+		FE20FD841BDD1E4500A59382 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE20FD851BDD1E4500A59382 /* STModal.h */,
+				FE20FD861BDD1E4500A59382 /* STModal.m */,
+				FE20FD871BDD1E4500A59382 /* TransitionSever.h */,
+				FE20FD881BDD1E4500A59382 /* TransitionSever.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE20FD891BDD1E4500A59382 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE20FD8A1BDD1E4500A59382 /* 分割线.png */,
+				FE20FD8B1BDD1E4500A59382 /* 过渡动画-按钮1.png */,
+				FE20FD8C1BDD1E4500A59382 /* 过渡动画-按钮2.png */,
+				FE20FD8D1BDD1E4500A59382 /* 过渡动画-控件.png */,
+				FE20FD8E1BDD1E4500A59382 /* 金币.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FE3D65381B77A22400A4AD3F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -652,7 +567,6 @@
 				FE3D67AF1B78968E00A4AD3F /* IrregularView */,
 				FE3D67871B788E4400A4AD3F /* GCD */,
 				FE3D65391B77A22400A4AD3F /* AFNetworking */,
-				FE3D65531B77A22400A4AD3F /* MWPhotoBrowser */,
 				FE3D65721B77A22400A4AD3F /* SDWebImage */,
 				FE3D65941B77A22400A4AD3F /* UIViewAdditions.h */,
 				FE3D65951B77A22400A4AD3F /* UIViewAdditions.m */,
@@ -697,64 +611,6 @@
 				FE3D65521B77A22400A4AD3F /* UIScrollView+SVPullToRefresh.m */,
 			);
 			path = SVPullToRefresh;
-			sourceTree = "<group>";
-		};
-		FE3D65531B77A22400A4AD3F /* MWPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D65541B77A22400A4AD3F /* DACircularProgress */,
-				FE3D65591B77A22400A4AD3F /* MBProgressHUD */,
-				FE3D655C1B77A22400A4AD3F /* MWPhoto */,
-			);
-			path = MWPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		FE3D65541B77A22400A4AD3F /* DACircularProgress */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D65551B77A22400A4AD3F /* DACircularProgressView.h */,
-				FE3D65561B77A22400A4AD3F /* DACircularProgressView.m */,
-				FE3D65571B77A22400A4AD3F /* DALabeledCircularProgressView.h */,
-				FE3D65581B77A22400A4AD3F /* DALabeledCircularProgressView.m */,
-			);
-			path = DACircularProgress;
-			sourceTree = "<group>";
-		};
-		FE3D65591B77A22400A4AD3F /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D655A1B77A22400A4AD3F /* MBProgressHUD.h */,
-				FE3D655B1B77A22400A4AD3F /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		FE3D655C1B77A22400A4AD3F /* MWPhoto */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D655D1B77A22400A4AD3F /* MWCaptionView.h */,
-				FE3D655E1B77A22400A4AD3F /* MWCaptionView.m */,
-				FE3D655F1B77A22400A4AD3F /* MWCommon.h */,
-				FE3D65601B77A22400A4AD3F /* MWGridCell.h */,
-				FE3D65611B77A22400A4AD3F /* MWGridCell.m */,
-				FE3D65621B77A22400A4AD3F /* MWGridViewController.h */,
-				FE3D65631B77A22400A4AD3F /* MWGridViewController.m */,
-				FE3D65641B77A22400A4AD3F /* MWPhoto.h */,
-				FE3D65651B77A22400A4AD3F /* MWPhoto.m */,
-				FE3D65661B77A22400A4AD3F /* MWPhotoBrowser.h */,
-				FE3D65671B77A22400A4AD3F /* MWPhotoBrowser.m */,
-				FE3D65681B77A22400A4AD3F /* MWPhotoBrowserPrivate.h */,
-				FE3D65691B77A22400A4AD3F /* MWPhotoProtocol.h */,
-				FE3D656A1B77A22400A4AD3F /* MWTapDetectingImageView.h */,
-				FE3D656B1B77A22400A4AD3F /* MWTapDetectingImageView.m */,
-				FE3D656C1B77A22400A4AD3F /* MWTapDetectingView.h */,
-				FE3D656D1B77A22400A4AD3F /* MWTapDetectingView.m */,
-				FE3D656E1B77A22400A4AD3F /* MWZoomingScrollView.h */,
-				FE3D656F1B77A22400A4AD3F /* MWZoomingScrollView.m */,
-				FE3D65701B77A22400A4AD3F /* UIImage+MWPhotoBrowser.h */,
-				FE3D65711B77A22400A4AD3F /* UIImage+MWPhotoBrowser.m */,
-			);
-			path = MWPhoto;
 			sourceTree = "<group>";
 		};
 		FE3D65721B77A22400A4AD3F /* SDWebImage */ = {
@@ -813,85 +669,10 @@
 				FE945F0A1B79D87E00A99AF8 /* WeChat */,
 				FE8F09191B78DC05001D2B08 /* CAEmitterLayer */,
 				FE3D67B61B78996E00A4AD3F /* IrregularView */,
-				FE3D663E1B77A34400A4AD3F /* MWPhotoBrowser */,
 				FE3D66741B77A34400A4AD3F /* tabBarImages */,
 				FE3D66791B77A34400A4AD3F /* test */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		FE3D663E1B77A34400A4AD3F /* MWPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D663F1B77A34400A4AD3F /* Assets */,
-				FE3D66611B77A34400A4AD3F /* LocalMedia */,
-			);
-			path = MWPhotoBrowser;
-			sourceTree = "<group>";
-		};
-		FE3D663F1B77A34400A4AD3F /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D66401B77A34400A4AD3F /* ImageError.png */,
-				FE3D66411B77A34400A4AD3F /* ImageError@2x.png */,
-				FE3D66421B77A34400A4AD3F /* ImageError@3x.png */,
-				FE3D66431B77A34400A4AD3F /* ImageSelectedOff.png */,
-				FE3D66441B77A34400A4AD3F /* ImageSelectedOff@2x.png */,
-				FE3D66451B77A34400A4AD3F /* ImageSelectedOff@3x.png */,
-				FE3D66461B77A34400A4AD3F /* ImageSelectedOn.png */,
-				FE3D66471B77A34400A4AD3F /* ImageSelectedOn@2x.png */,
-				FE3D66481B77A34400A4AD3F /* ImageSelectedOn@3x.png */,
-				FE3D66491B77A34400A4AD3F /* ImageSelectedSmallOff.png */,
-				FE3D664A1B77A34400A4AD3F /* ImageSelectedSmallOff@2x.png */,
-				FE3D664B1B77A34400A4AD3F /* ImageSelectedSmallOff@3x.png */,
-				FE3D664C1B77A34400A4AD3F /* ImageSelectedSmallOn.png */,
-				FE3D664D1B77A34400A4AD3F /* ImageSelectedSmallOn@2x.png */,
-				FE3D664E1B77A34400A4AD3F /* ImageSelectedSmallOn@3x.png */,
-				FE3D664F1B77A34400A4AD3F /* PlayButtonOverlayLarge.png */,
-				FE3D66501B77A34400A4AD3F /* PlayButtonOverlayLarge@2x.png */,
-				FE3D66511B77A34400A4AD3F /* PlayButtonOverlayLarge@3x.png */,
-				FE3D66521B77A34400A4AD3F /* PlayButtonOverlayLargeTap.png */,
-				FE3D66531B77A34400A4AD3F /* PlayButtonOverlayLargeTap@2x.png */,
-				FE3D66541B77A34400A4AD3F /* PlayButtonOverlayLargeTap@3x.png */,
-				FE3D66551B77A34400A4AD3F /* UIBarButtonItemArrowLeft.png */,
-				FE3D66561B77A34400A4AD3F /* UIBarButtonItemArrowLeft@2x.png */,
-				FE3D66571B77A34400A4AD3F /* UIBarButtonItemArrowLeft@3x.png */,
-				FE3D66581B77A34400A4AD3F /* UIBarButtonItemArrowRight.png */,
-				FE3D66591B77A34400A4AD3F /* UIBarButtonItemArrowRight@2x.png */,
-				FE3D665A1B77A34400A4AD3F /* UIBarButtonItemArrowRight@3x.png */,
-				FE3D665B1B77A34400A4AD3F /* UIBarButtonItemGrid.png */,
-				FE3D665C1B77A34400A4AD3F /* UIBarButtonItemGrid@2x.png */,
-				FE3D665D1B77A34400A4AD3F /* UIBarButtonItemGrid@3x.png */,
-				FE3D665E1B77A34400A4AD3F /* VideoOverlay.png */,
-				FE3D665F1B77A34400A4AD3F /* VideoOverlay@2x.png */,
-				FE3D66601B77A34400A4AD3F /* VideoOverlay@3x.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		FE3D66611B77A34400A4AD3F /* LocalMedia */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D66621B77A34400A4AD3F /* photo1.jpg */,
-				FE3D66631B77A34400A4AD3F /* photo1t.jpg */,
-				FE3D66641B77A34400A4AD3F /* photo2.jpg */,
-				FE3D66651B77A34400A4AD3F /* photo2t.jpg */,
-				FE3D66661B77A34400A4AD3F /* photo3.jpg */,
-				FE3D66671B77A34400A4AD3F /* photo3t.jpg */,
-				FE3D66681B77A34400A4AD3F /* photo4.jpg */,
-				FE3D66691B77A34400A4AD3F /* photo4t.jpg */,
-				FE3D666A1B77A34400A4AD3F /* photo5.jpg */,
-				FE3D666B1B77A34400A4AD3F /* photo5t.jpg */,
-				FE3D666C1B77A34400A4AD3F /* photo6.jpg */,
-				FE3D666D1B77A34400A4AD3F /* photo6t.jpg */,
-				FE3D666E1B77A34400A4AD3F /* photo7.jpg */,
-				FE3D666F1B77A34400A4AD3F /* photo7t.jpg */,
-				FE3D66701B77A34400A4AD3F /* photo8.jpg */,
-				FE3D66711B77A34400A4AD3F /* photo8t.jpg */,
-				FE3D66721B77A34400A4AD3F /* video.mp4 */,
-				FE3D66731B77A34400A4AD3F /* video_thumb.jpg */,
-			);
-			path = LocalMedia;
 			sourceTree = "<group>";
 		};
 		FE3D66741B77A34400A4AD3F /* tabBarImages */ = {
@@ -1096,33 +877,6 @@
 			path = SpreadCollectionView;
 			sourceTree = "<group>";
 		};
-		FE3D67161B77A63600A4AD3F /* ThirdPart */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D671B1B77A63600A4AD3F /* ThirdPartViewController.h */,
-				FE3D671C1B77A63600A4AD3F /* ThirdPartViewController.m */,
-				FE3D67171B77A63600A4AD3F /* Function */,
-			);
-			path = ThirdPart;
-			sourceTree = "<group>";
-		};
-		FE3D67171B77A63600A4AD3F /* Function */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D67181B77A63600A4AD3F /* MWPhotoBrowser */,
-			);
-			path = Function;
-			sourceTree = "<group>";
-		};
-		FE3D67181B77A63600A4AD3F /* MWPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				FE3D67191B77A63600A4AD3F /* MWPhotoBrowserController.h */,
-				FE3D671A1B77A63600A4AD3F /* MWPhotoBrowserController.m */,
-			);
-			path = MWPhotoBrowser;
-			sourceTree = "<group>";
-		};
 		FE3D67871B788E4400A4AD3F /* GCD */ = {
 			isa = PBXGroup;
 			children = (
@@ -1221,54 +975,9 @@
 		FE432BD51BDBD9DC0011FFBF /* v4.40.01 */ = {
 			isa = PBXGroup;
 			children = (
-				FE432BD91BDBDA660011FFBF /* Controllers */,
-				FE432BDA1BDBDA660011FFBF /* Models */,
-				FE432BDB1BDBDA660011FFBF /* Views */,
-				FE432BE71BDBE1A10011FFBF /* Resources */,
+				FE20FD791BDD1E4500A59382 /* AutoLayout */,
 			);
 			path = v4.40.01;
-			sourceTree = "<group>";
-		};
-		FE432BD91BDBDA660011FFBF /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				FE432BDC1BDBDAE70011FFBF /* OpenAccountTransitionViewController.h */,
-				FE432BDD1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		FE432BDA1BDBDA660011FFBF /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				FE432BE41BDBDFF00011FFBF /* STModal.h */,
-				FE432BE51BDBDFF00011FFBF /* STModal.m */,
-				FE432BF21BDBE62A0011FFBF /* TransitionSever.h */,
-				FE432BF31BDBE62A0011FFBF /* TransitionSever.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		FE432BDB1BDBDA660011FFBF /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				FE432BDF1BDBDED70011FFBF /* TransitionView.h */,
-				FE432BE01BDBDED70011FFBF /* TransitionView.m */,
-				FE432BE21BDBDEE60011FFBF /* TransitionView.xib */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		FE432BE71BDBE1A10011FFBF /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FE432BEA1BDBE2340011FFBF /* 过渡动画-控件.png */,
-				FE432BEE1BDBE2400011FFBF /* 过渡动画-按钮1.png */,
-				FE432BF01BDBE24E0011FFBF /* 分割线.png */,
-				FE432BEC1BDBE23A0011FFBF /* 过渡动画-按钮2.png */,
-				FE432BE81BDBE2250011FFBF /* 金币.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		FE4A235F1B75E28B00A39627 = {
@@ -1298,7 +1007,6 @@
 				FE3D633E1B7749A900A4AD3F /* TabBarViewController.m */,
 				FE3D66BB1B77A61F00A4AD3F /* InternetDemo */,
 				FE3D66F41B77A62900A4AD3F /* MyDemo */,
-				FE3D67161B77A63600A4AD3F /* ThirdPart */,
 				FEE89E981BDB331600458746 /* iPhoneIJJ */,
 				FE3D663C1B77A31A00A4AD3F /* Frameworks */,
 				FE3D663D1B77A34400A4AD3F /* Resources */,
@@ -1656,129 +1364,79 @@
 				FE8F09661B78E7F4001D2B08 /* star1.png in Resources */,
 				FE8F09491B78DC05001D2B08 /* Icon@2x.png in Resources */,
 				FE8F093F1B78DC05001D2B08 /* DazStarIcon@2x.png in Resources */,
-				FE3D66A31B77A34400A4AD3F /* photo2t.jpg in Resources */,
-				FE3D66881B77A34400A4AD3F /* ImageSelectedSmallOff.png in Resources */,
 				FE8F09421B78DC05001D2B08 /* first.png in Resources */,
 				FE8F094A1B78DC05001D2B08 /* iTunesArtwork.png in Resources */,
-				FE3D669F1B77A34400A4AD3F /* VideoOverlay@3x.png in Resources */,
-				FE3D66991B77A34400A4AD3F /* UIBarButtonItemArrowRight@3x.png in Resources */,
 				FE945F4A1B79D87E00A99AF8 /* CUSSenderSnow3.png in Resources */,
 				FE945F411B79D87E00A99AF8 /* CUSSenderFlower6.png in Resources */,
 				FE945F3E1B79D87E00A99AF8 /* CUSSenderFlower3.png in Resources */,
 				FE8F093C1B78DC05001D2B08 /* DazRing.png in Resources */,
 				FE8F09461B78DC05001D2B08 /* Icon-Small.png in Resources */,
 				FE4A23761B75E28B00A39627 /* LaunchScreen.xib in Resources */,
-				FE3D669E1B77A34400A4AD3F /* VideoOverlay@2x.png in Resources */,
-				FE3D66971B77A34400A4AD3F /* UIBarButtonItemArrowRight.png in Resources */,
-				FE3D66B01B77A34400A4AD3F /* video.mp4 in Resources */,
-				FE3D66AA1B77A34400A4AD3F /* photo6.jpg in Resources */,
-				FE3D667F1B77A34400A4AD3F /* ImageError.png in Resources */,
 				FE945F451B79D87E00A99AF8 /* CUSSenderSnow10.png in Resources */,
-				FE3D66A11B77A34400A4AD3F /* photo1t.jpg in Resources */,
 				FE8F09671B78E7F4001D2B08 /* stars2.png in Resources */,
-				FE3D66981B77A34400A4AD3F /* UIBarButtonItemArrowRight@2x.png in Resources */,
-				FE3D66A71B77A34400A4AD3F /* photo4t.jpg in Resources */,
 				FE945F441B79D87E00A99AF8 /* CUSSenderSnow1.png in Resources */,
 				FE945F4D1B79D87E00A99AF8 /* CUSSenderSnow6.png in Resources */,
-				FE3D66941B77A34400A4AD3F /* UIBarButtonItemArrowLeft.png in Resources */,
-				FE3D66891B77A34400A4AD3F /* ImageSelectedSmallOff@2x.png in Resources */,
 				FE8F09371B78DC05001D2B08 /* DazFlameIcon.png in Resources */,
-				FE432BE31BDBDEE60011FFBF /* TransitionView.xib in Resources */,
 				FE945F3F1B79D87E00A99AF8 /* CUSSenderFlower4.png in Resources */,
-				FE3D66851B77A34400A4AD3F /* ImageSelectedOn.png in Resources */,
-				FE3D668F1B77A34400A4AD3F /* PlayButtonOverlayLarge@2x.png in Resources */,
 				FE3D66B51B77A34400A4AD3F /* tabbar_me@2x.png in Resources */,
 				FE3D66B21B77A34400A4AD3F /* tabbar_contacts@2x.png in Resources */,
 				FE945F461B79D87E00A99AF8 /* CUSSenderSnow11.png in Resources */,
-				FE3D668B1B77A34400A4AD3F /* ImageSelectedSmallOn.png in Resources */,
-				FE3D66931B77A34400A4AD3F /* PlayButtonOverlayLargeTap@3x.png in Resources */,
 				FE8F093E1B78DC05001D2B08 /* DazStarIcon.png in Resources */,
 				FE3D67BA1B78996E00A4AD3F /* hand.png in Resources */,
 				FE945F361B79D87E00A99AF8 /* CUSSenderBirthday@2x.png in Resources */,
 				FE8F09351B78DC05001D2B08 /* DazFlakeIcon.png in Resources */,
+				FE20FD961BDD1E4500A59382 /* 分割线.png in Resources */,
+				FE20FD911BDD1E4500A59382 /* TransitionView.xib in Resources */,
 				FE8F09401B78DC05001D2B08 /* DazStarOutline.png in Resources */,
-				FE3D669B1B77A34400A4AD3F /* UIBarButtonItemGrid@2x.png in Resources */,
 				FE945F301B79D87E00A99AF8 /* CUSSenderFlowerBG.jpg in Resources */,
 				FE8F093D1B78DC05001D2B08 /* DazSmoke.png in Resources */,
 				FE945F391B79D87E00A99AF8 /* CUSSenderRain@2x.png in Resources */,
-				FE432BF11BDBE24E0011FFBF /* 分割线.png in Resources */,
 				FE4A23731B75E28B00A39627 /* Images.xcassets in Resources */,
 				FE945F4E1B79D87E00A99AF8 /* CUSSenderSnow7.png in Resources */,
-				FE3D668D1B77A34400A4AD3F /* ImageSelectedSmallOn@3x.png in Resources */,
-				FE3D66811B77A34400A4AD3F /* ImageError@3x.png in Resources */,
-				FE3D66A91B77A34400A4AD3F /* photo5t.jpg in Resources */,
-				FE432BEB1BDBE2340011FFBF /* 过渡动画-控件.png in Resources */,
 				FE3D66B81B77A34400A4AD3F /* test2.jpg in Resources */,
+				FE20FD991BDD1E4500A59382 /* 过渡动画-控件.png in Resources */,
 				FE8F09471B78DC05001D2B08 /* Icon-Small@2x.png in Resources */,
 				FE3D66B61B77A34400A4AD3F /* caoyuan.jpg in Resources */,
 				FE945F331B79D87E00A99AF8 /* CUSSenderWeixinBG@2x.jpg in Resources */,
 				FE8F09361B78DC05001D2B08 /* DazFlakeIcon@2x.png in Resources */,
-				FE432BEF1BDBE2400011FFBF /* 过渡动画-按钮1.png in Resources */,
 				FE945F3A1B79D87E00A99AF8 /* CUSSenderStar4.png in Resources */,
 				FE945F431B79D87E00A99AF8 /* CUSSenderFlower8.png in Resources */,
 				FE945F471B79D87E00A99AF8 /* CUSSenderSnow12.png in Resources */,
 				FE945F421B79D87E00A99AF8 /* CUSSenderFlower7.png in Resources */,
-				FE3D66951B77A34400A4AD3F /* UIBarButtonItemArrowLeft@2x.png in Resources */,
 				FE8F09391B78DC05001D2B08 /* DazHeart.png in Resources */,
-				FE3D66901B77A34400A4AD3F /* PlayButtonOverlayLarge@3x.png in Resources */,
 				FE8F09431B78DC05001D2B08 /* first@2x.png in Resources */,
-				FE3D66A01B77A34400A4AD3F /* photo1.jpg in Resources */,
 				FE945F381B79D87E00A99AF8 /* CUSSenderKiss@2x.png in Resources */,
-				FE3D66AC1B77A34400A4AD3F /* photo7.jpg in Resources */,
 				FE945F3C1B79D87E00A99AF8 /* CUSSenderFlower1.png in Resources */,
-				FE3D66841B77A34400A4AD3F /* ImageSelectedOff@3x.png in Resources */,
 				FE8F09331B78DC05001D2B08 /* DazFire.png in Resources */,
-				FE3D669A1B77A34400A4AD3F /* UIBarButtonItemGrid.png in Resources */,
 				FE3D66B31B77A34400A4AD3F /* tabbar_discover@2x.png in Resources */,
-				FE432BED1BDBE23A0011FFBF /* 过渡动画-按钮2.png in Resources */,
 				FE8F093B1B78DC05001D2B08 /* DazHeartIcon@2x.png in Resources */,
 				FE3D66B71B77A34400A4AD3F /* test.jpg in Resources */,
-				FE3D668E1B77A34400A4AD3F /* PlayButtonOverlayLarge.png in Resources */,
 				FE945F4C1B79D87E00A99AF8 /* CUSSenderSnow5.png in Resources */,
 				FE3D67B91B78996E00A4AD3F /* 2013011.jpg in Resources */,
+				FE20FD971BDD1E4500A59382 /* 过渡动画-按钮1.png in Resources */,
+				FE20FD931BDD1E4500A59382 /* WrongAutoLayoutView.xib in Resources */,
 				FE8F09451B78DC05001D2B08 /* Icon-Small-50.png in Resources */,
-				FE3D66911B77A34400A4AD3F /* PlayButtonOverlayLargeTap.png in Resources */,
 				FE8F09381B78DC05001D2B08 /* DazFlameIcon@2x.png in Resources */,
-				FE3D66A81B77A34400A4AD3F /* photo5.jpg in Resources */,
-				FE3D66AD1B77A34400A4AD3F /* photo7t.jpg in Resources */,
-				FE3D66921B77A34400A4AD3F /* PlayButtonOverlayLargeTap@2x.png in Resources */,
-				FE3D66B11B77A34400A4AD3F /* video_thumb.jpg in Resources */,
-				FE432BE91BDBE2250011FFBF /* 金币.png in Resources */,
 				FE945F311B79D87E00A99AF8 /* CUSSenderRainBG@2x.jpg in Resources */,
 				FE945F4F1B79D87E00A99AF8 /* CUSSenderSnow8.png in Resources */,
 				FE945F4B1B79D87E00A99AF8 /* CUSSenderSnow4.png in Resources */,
 				FE8F09411B78DC05001D2B08 /* DazTriangle.png in Resources */,
 				FE945F401B79D87E00A99AF8 /* CUSSenderFlower5.png in Resources */,
-				FE3D66A21B77A34400A4AD3F /* photo2.jpg in Resources */,
 				FE8F09341B78DC05001D2B08 /* DazFlake.png in Resources */,
-				FE3D66861B77A34400A4AD3F /* ImageSelectedOn@2x.png in Resources */,
 				FE8F09481B78DC05001D2B08 /* Icon.png in Resources */,
-				FE3D66A41B77A34400A4AD3F /* photo3.jpg in Resources */,
 				FE945F3B1B79D87E00A99AF8 /* CUSSenderStar5.png in Resources */,
+				FE20FD9A1BDD1E4500A59382 /* 金币.png in Resources */,
 				FE8F093A1B78DC05001D2B08 /* DazHeartIcon.png in Resources */,
-				FE3D668C1B77A34400A4AD3F /* ImageSelectedSmallOn@2x.png in Resources */,
-				FE3D66831B77A34400A4AD3F /* ImageSelectedOff@2x.png in Resources */,
-				FE3D66961B77A34400A4AD3F /* UIBarButtonItemArrowLeft@3x.png in Resources */,
 				FE945F371B79D87E00A99AF8 /* CUSSenderGold@2x.png in Resources */,
-				FE3D66A51B77A34400A4AD3F /* photo3t.jpg in Resources */,
-				FE3D66A61B77A34400A4AD3F /* photo4.jpg in Resources */,
 				FE8F09651B78E7F4001D2B08 /* snow1.png in Resources */,
-				FE3D66AF1B77A34400A4AD3F /* photo8t.jpg in Resources */,
 				FE945F321B79D87E00A99AF8 /* CUSSenderSnowBG.jpg in Resources */,
-				FE3D66821B77A34400A4AD3F /* ImageSelectedOff.png in Resources */,
-				FE3D669C1B77A34400A4AD3F /* UIBarButtonItemGrid@3x.png in Resources */,
 				FE945F481B79D87E00A99AF8 /* CUSSenderSnow13.png in Resources */,
 				FE3D66B91B77A34400A4AD3F /* test3.jpg in Resources */,
-				FE3D66801B77A34400A4AD3F /* ImageError@2x.png in Resources */,
-				FE3D66AE1B77A34400A4AD3F /* photo8.jpg in Resources */,
-				FE3D669D1B77A34400A4AD3F /* VideoOverlay.png in Resources */,
 				FE945F491B79D87E00A99AF8 /* CUSSenderSnow2.png in Resources */,
 				FE8F09441B78DC05001D2B08 /* Icon-72.png in Resources */,
+				FE20FD981BDD1E4500A59382 /* 过渡动画-按钮2.png in Resources */,
 				FE945F3D1B79D87E00A99AF8 /* CUSSenderFlower2.png in Resources */,
-				FE3D668A1B77A34400A4AD3F /* ImageSelectedSmallOff@3x.png in Resources */,
-				FE3D66AB1B77A34400A4AD3F /* photo6t.jpg in Resources */,
 				FE945F501B79D87E00A99AF8 /* CUSSenderSnow9.png in Resources */,
-				FE3D66871B77A34400A4AD3F /* ImageSelectedOn@3x.png in Resources */,
 				FE3D66B41B77A34400A4AD3F /* tabbar_mainframe@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1800,38 +1458,32 @@
 				FE3D67931B788E4500A4AD3F /* GCDQueue.m in Sources */,
 				FE3D670D1B77A62900A4AD3F /* SecondLevelTabViewController.m in Sources */,
 				FEE89E9B1BDB331600458746 /* IJJViewController.m in Sources */,
+				FE20FD921BDD1E4500A59382 /* WrongAutoLayoutView.m in Sources */,
 				FE3D679D1B788F8A00A4AD3F /* CALayerViewController.m in Sources */,
 				FE945F8A1B79FB5700A99AF8 /* ZXPaoMaView.m in Sources */,
 				FE3D659F1B77A22400A4AD3F /* UIScrollView+SVInfiniteScrolling.m in Sources */,
-				FE3D671E1B77A63600A4AD3F /* ThirdPartViewController.m in Sources */,
 				FE3D67C61B78ACF300A4AD3F /* GradientProgressViewController.m in Sources */,
 				FE3D67101B77A62900A4AD3F /* DetailModel.m in Sources */,
-				FE3D65AB1B77A22400A4AD3F /* MWZoomingScrollView.m in Sources */,
 				FE945F7E1B79DEED00A99AF8 /* SnowLayer.m in Sources */,
 				FE945ED11B79BE7500A99AF8 /* WeChatVC.m in Sources */,
 				FE3D65B21B77A22400A4AD3F /* SDWebImageDownloader.m in Sources */,
+				FE20FD941BDD1E4500A59382 /* STModal.m in Sources */,
 				FE3D67131B77A62900A4AD3F /* MainModel.m in Sources */,
-				FE3D65A21B77A22400A4AD3F /* DALabeledCircularProgressView.m in Sources */,
 				FE945F7A1B79DEED00A99AF8 /* FlowerLayer.m in Sources */,
 				FE3D65971B77A22400A4AD3F /* AFHTTPRequestOperationManager.m in Sources */,
 				FE3D65B81B77A22400A4AD3F /* UIImage+MultiFormat.m in Sources */,
 				FE3D66E71B77A61F00A4AD3F /* XZAlbumViewController.m in Sources */,
-				FE3D65A61B77A22400A4AD3F /* MWGridViewController.m in Sources */,
 				FE3D66EF1B77A61F00A4AD3F /* XZImageViewController.m in Sources */,
 				FE3D65B71B77A22400A4AD3F /* UIImage+GIF.m in Sources */,
 				FE3D66F01B77A61F00A4AD3F /* FirstMethodController.m in Sources */,
-				FE3D65A71B77A22400A4AD3F /* MWPhoto.m in Sources */,
-				FE3D65A81B77A22400A4AD3F /* MWPhotoBrowser.m in Sources */,
 				FE3D65B11B77A22400A4AD3F /* SDWebImageDecoder.m in Sources */,
-				FE3D671D1B77A63600A4AD3F /* MWPhotoBrowserController.m in Sources */,
 				FE3D67141B77A62900A4AD3F /* SpreadCollectionController.m in Sources */,
 				FE4A23711B75E28B00A39627 /* AppDelegate.m in Sources */,
-				FE432BDE1BDBDAE70011FFBF /* OpenAccountTransitionViewController.m in Sources */,
 				FE8F09701B78E846001D2B08 /* CustomButton.m in Sources */,
-				FE3D65AC1B77A22400A4AD3F /* UIImage+MWPhotoBrowser.m in Sources */,
 				FE3D66F31B77A61F00A4AD3F /* UIWebViewViewController.m in Sources */,
 				FE3D67951B788E4500A4AD3F /* GCDTimer.m in Sources */,
 				FE3D65AE1B77A22400A4AD3F /* NSData+ImageContentType.m in Sources */,
+				FE20FD951BDD1E4500A59382 /* TransitionSever.m in Sources */,
 				FE3D633F1B7749A900A4AD3F /* TabBarViewController.m in Sources */,
 				FE8F095D1B78E462001D2B08 /* FireworksVC.m in Sources */,
 				FE3D66EC1B77A61F00A4AD3F /* NSTimerViewController.m in Sources */,
@@ -1839,7 +1491,6 @@
 				FE945F861B79F3A700A99AF8 /* PictureChangeVC.m in Sources */,
 				FE3D65981B77A22400A4AD3F /* AFHTTPSessionManager.m in Sources */,
 				FE3D65AD1B77A22400A4AD3F /* MKAnnotationView+WebCache.m in Sources */,
-				FE3D65A91B77A22400A4AD3F /* MWTapDetectingImageView.m in Sources */,
 				FE3D67C21B78ACE300A4AD3F /* GradientProgressView.m in Sources */,
 				FE3D670C1B77A62900A4AD3F /* CarModel.m in Sources */,
 				FE3D65991B77A22400A4AD3F /* AFNetworkReachabilityManager.m in Sources */,
@@ -1850,16 +1501,15 @@
 				FE3D65BA1B77A22400A4AD3F /* UIImageView+HighlightedWebCache.m in Sources */,
 				FE3D67A11B78914300A4AD3F /* MyIrregularityViewController.m in Sources */,
 				FE3D66ED1B77A61F00A4AD3F /* XZSandBoxViewController.m in Sources */,
-				FE3D65A31B77A22400A4AD3F /* MBProgressHUD.m in Sources */,
 				FE3D66E91B77A61F00A4AD3F /* XZAutoSimplingShowView.m in Sources */,
 				FE945F791B79DEED00A99AF8 /* BirthdayLayer.m in Sources */,
 				FE3D66EA1B77A61F00A4AD3F /* XZCropImageViewController.m in Sources */,
 				FE945F7C1B79DEED00A99AF8 /* KissLayer.m in Sources */,
 				FE3D65B41B77A22400A4AD3F /* SDWebImageManager.m in Sources */,
 				FE3D67921B788E4500A4AD3F /* GCDGroup.m in Sources */,
-				FE432BE61BDBDFF00011FFBF /* STModal.m in Sources */,
 				FE3D67121B77A62900A4AD3F /* FooterView.m in Sources */,
 				FE3D65B51B77A22400A4AD3F /* SDWebImagePrefetcher.m in Sources */,
+				FE20FD901BDD1E4500A59382 /* TransitionView.m in Sources */,
 				FE3D65B61B77A22400A4AD3F /* UIButton+WebCache.m in Sources */,
 				FE4A236E1B75E28B00A39627 /* main.m in Sources */,
 				FE945F691B79DECA00A99AF8 /* WeChatDetailVC.m in Sources */,
@@ -1870,20 +1520,18 @@
 				FE3D65B91B77A22400A4AD3F /* UIImage+WebP.m in Sources */,
 				FE3D66E51B77A61F00A4AD3F /* DemoViewController.m in Sources */,
 				FE8F09711B78E846001D2B08 /* EmitterView.m in Sources */,
+				FE20FD8F1BDD1E4500A59382 /* OpenAccountTransitionViewController.m in Sources */,
 				FE8F09571B78E218001D2B08 /* FireViewController.m in Sources */,
 				FE3D67111B77A62900A4AD3F /* DetailViewController.m in Sources */,
-				FE432BE11BDBDED70011FFBF /* TransitionView.m in Sources */,
 				FE8F09141B78DA15001D2B08 /* CAEmitterLayerVC.m in Sources */,
 				FE3D65BD1B77A22400A4AD3F /* UIViewAdditions.m in Sources */,
 				FE3D659A1B77A22400A4AD3F /* AFSecurityPolicy.m in Sources */,
 				FE3D65BC1B77A22400A4AD3F /* UIView+WebCacheOperation.m in Sources */,
 				FE3D66EE1B77A61F00A4AD3F /* UIDataDetectorTypesViewController.m in Sources */,
 				FE3D670F1B77A62900A4AD3F /* DetailCollectionViewCell.m in Sources */,
-				FE3D65AA1B77A22400A4AD3F /* MWTapDetectingView.m in Sources */,
 				FE945EEE1B79C1A100A99AF8 /* FallLayer.m in Sources */,
 				FE3D66F21B77A61F00A4AD3F /* XZPlaceholderTextView.m in Sources */,
 				FE3D66EB1B77A61F00A4AD3F /* JumpToAnotherAppController.m in Sources */,
-				FE3D65A11B77A22400A4AD3F /* DACircularProgressView.m in Sources */,
 				FE3D67B51B7896EE00A4AD3F /* UIBezierPath+BasicShapes.m in Sources */,
 				FE3D67151B77A62900A4AD3F /* MyDemoViewController.m in Sources */,
 				FE3D659D1B77A22400A4AD3F /* AFURLResponseSerialization.m in Sources */,
@@ -1891,10 +1539,7 @@
 				FE3D67BE1B789A9200A4AD3F /* CAGradientLayerViewController.m in Sources */,
 				FE8F09531B78E20E001D2B08 /* HeartViewController.m in Sources */,
 				FE945F8D1B7A0EB100A99AF8 /* ZXPaoMaViewController.m in Sources */,
-				FE432BF41BDBE62A0011FFBF /* TransitionSever.m in Sources */,
 				FE8F09541B78E20E001D2B08 /* SnowViewController.m in Sources */,
-				FE3D65A51B77A22400A4AD3F /* MWGridCell.m in Sources */,
-				FE3D65A41B77A22400A4AD3F /* MWCaptionView.m in Sources */,
 				FE3D65B01B77A22400A4AD3F /* SDWebImageCompat.m in Sources */,
 				FE3D65AF1B77A22400A4AD3F /* SDImageCache.m in Sources */,
 				FE8F096B1B78E832001D2B08 /* ButtonEffectVC.m in Sources */,

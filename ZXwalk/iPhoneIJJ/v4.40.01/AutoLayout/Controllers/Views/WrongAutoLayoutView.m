@@ -1,14 +1,14 @@
 //
-//  TransitionView.m
+//  WrongAutoLayoutView.m
 //  ZXwalk
 //
-//  Created by 张祥 on 15/10/24.
+//  Created by 张祥 on 15/10/25.
 //  Copyright © 2015年 张祥. All rights reserved.
 //
 
-#import "TransitionView.h"
+#import "WrongAutoLayoutView.h"
 
-@implementation TransitionView
+@implementation WrongAutoLayoutView
 
 /*
 // Only override drawRect: if you perform custom drawing.

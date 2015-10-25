@@ -28,18 +28,17 @@
     
     NSArray *controllersNames = @[@"DemoViewController",
                              @"MyDemoViewController",
-                             @"ThirdPartViewController",
                              @"IJJViewController"];
     
     
-    NSArray *titles = @[@"网上", @"MyApp", @"第三方", @"爱基金"];
+    NSArray *titles = @[@"网上", @"MyApp", @"爱基金"];
     
     NSArray *images = @[@"tabbar_contacts", @"tabbar_me", @"tabbar_mainframe", @"tabbar_mainframe"];
     
     
     NSMutableArray *controllers = [@[] mutableCopy];
     
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 3; i++)
     {
         UIViewController *rootVC = [[NSClassFromString(controllersNames[i]) alloc] init];
         UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:rootVC];
