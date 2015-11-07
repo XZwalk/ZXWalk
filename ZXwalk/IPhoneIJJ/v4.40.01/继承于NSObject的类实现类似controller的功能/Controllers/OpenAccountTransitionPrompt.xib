@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OpenAccountTransitionPrompt">
+            <connections>
+                <outlet property="baseView" destination="iN0-l3-epB" id="3eg-LF-qLO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OpenAccountTransitionView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="350"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6mF-NG-AiF">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="350"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXc-CO-2X1">
+                    <rect key="frame" x="0.0" y="37" width="320" height="20"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="zQo-ED-maP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.94117647058823528" green="0.14117647058823529" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="244" misplaced="YES" text="--" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUs-oo-bdh">
+                    <rect key="frame" x="55" y="90" width="239" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.27450980392156865" green="0.25490196078431371" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="--" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aB7-57-maG">
+                    <rect key="frame" x="53" y="172" width="241" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.27450980392156865" green="0.25490196078431371" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJT-ut-6FB">
+                    <rect key="frame" x="26" y="223" width="268" height="44"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Nkb-Od-hOZ"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="过渡动画-按钮1.png"/>
+                    <connections>
+                        <action selector="openAccountAction" destination="-1" eventType="touchUpInside" id="8FZ-h7-jMT"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="过渡动画-控件.png" translatesAutoresizingMaskIntoConstraints="NO" id="hua-Rw-Kpv">
+                    <rect key="frame" x="26" y="131" width="18" height="14"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="0Oo-c9-abP"/>
+                        <constraint firstAttribute="width" constant="18" id="oJg-iS-6vy"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="过渡动画-控件.png" translatesAutoresizingMaskIntoConstraints="NO" id="qzO-4k-cyR">
+                    <rect key="frame" x="26" y="90" width="20" height="15"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="5Rz-Z8-sAK"/>
+                        <constraint firstAttribute="width" constant="20" id="OAu-3b-6F9"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="过渡动画-控件.png" translatesAutoresizingMaskIntoConstraints="NO" id="394-u7-7W3">
+                    <rect key="frame" x="26" y="172" width="18" height="14"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="HXJ-0K-XFM"/>
+                        <constraint firstAttribute="width" constant="18" id="UTN-PU-WZl"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="分割线.png" translatesAutoresizingMaskIntoConstraints="NO" id="UjH-Js-8Ik">
+                    <rect key="frame" x="15" y="72" width="290" height="3"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="pmB-EQ-vnO"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABr-PY-RLr">
+                    <rect key="frame" x="26" y="287" width="268" height="44"/>
+                    <animations/>
+                    <state key="normal" backgroundImage="过渡动画-按钮2.png"/>
+                    <connections>
+                        <action selector="loginAction" destination="-1" eventType="touchUpInside" id="Oij-w0-MCQ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="--" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Vx-vB-LCh">
+                    <rect key="frame" x="53" y="131" width="241" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.27450980392156865" green="0.25490196078431371" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ABr-PY-RLr" firstAttribute="width" secondItem="wJT-ut-6FB" secondAttribute="width" id="0Di-7g-Xr1"/>
+                <constraint firstItem="aB7-57-maG" firstAttribute="top" secondItem="5Vx-vB-LCh" secondAttribute="bottom" constant="20" id="1oB-gy-7OE"/>
+                <constraint firstAttribute="trailing" secondItem="UjH-Js-8Ik" secondAttribute="trailing" constant="15" id="3ap-tF-1Cs"/>
+                <constraint firstItem="6mF-NG-AiF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="9YB-dT-2fR"/>
+                <constraint firstItem="XXc-CO-2X1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="37" id="BGg-7o-WUJ"/>
+                <constraint firstItem="XXc-CO-2X1" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ByT-wO-sZJ"/>
+                <constraint firstItem="394-u7-7W3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="G2d-aq-VZh"/>
+                <constraint firstItem="qzO-4k-cyR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="GVF-us-3s6"/>
+                <constraint firstAttribute="trailing" secondItem="hUs-oo-bdh" secondAttribute="trailing" constant="26" id="GrT-WZ-nGE"/>
+                <constraint firstItem="wJT-ut-6FB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="IGb-Sz-2Wt"/>
+                <constraint firstItem="aB7-57-maG" firstAttribute="leading" secondItem="394-u7-7W3" secondAttribute="trailing" constant="9" id="Icp-EP-IvJ"/>
+                <constraint firstAttribute="trailing" secondItem="XXc-CO-2X1" secondAttribute="trailing" id="LNg-rg-6uU"/>
+                <constraint firstItem="5Vx-vB-LCh" firstAttribute="top" secondItem="hua-Rw-Kpv" secondAttribute="top" id="Q3T-ic-TnC"/>
+                <constraint firstItem="6mF-NG-AiF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SZj-J8-gBg"/>
+                <constraint firstItem="hua-Rw-Kpv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="XK9-Jf-3CX"/>
+                <constraint firstItem="hUs-oo-bdh" firstAttribute="leading" secondItem="qzO-4k-cyR" secondAttribute="trailing" constant="9" id="YkS-zL-roe"/>
+                <constraint firstAttribute="trailing" secondItem="aB7-57-maG" secondAttribute="trailing" constant="26" id="cpE-jf-knB"/>
+                <constraint firstItem="5Vx-vB-LCh" firstAttribute="leading" secondItem="hua-Rw-Kpv" secondAttribute="trailing" constant="9" id="dDj-1a-NlE"/>
+                <constraint firstItem="UjH-Js-8Ik" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="e3J-ei-gPZ"/>
+                <constraint firstAttribute="trailing" secondItem="wJT-ut-6FB" secondAttribute="trailing" constant="26" id="eco-ka-okz"/>
+                <constraint firstItem="hUs-oo-bdh" firstAttribute="top" secondItem="qzO-4k-cyR" secondAttribute="top" id="jXD-Ud-xHd"/>
+                <constraint firstAttribute="trailing" secondItem="6mF-NG-AiF" secondAttribute="trailing" id="mym-r8-knr"/>
+                <constraint firstItem="aB7-57-maG" firstAttribute="top" secondItem="394-u7-7W3" secondAttribute="top" id="nhk-xL-bk7"/>
+                <constraint firstItem="wJT-ut-6FB" firstAttribute="top" secondItem="aB7-57-maG" secondAttribute="bottom" constant="30" id="nk2-Un-Wn8"/>
+                <constraint firstAttribute="bottom" secondItem="6mF-NG-AiF" secondAttribute="bottom" id="p7i-FV-g05"/>
+                <constraint firstItem="UjH-Js-8Ik" firstAttribute="top" secondItem="XXc-CO-2X1" secondAttribute="bottom" constant="15" id="u8k-K0-Dhv"/>
+                <constraint firstItem="ABr-PY-RLr" firstAttribute="height" secondItem="wJT-ut-6FB" secondAttribute="height" id="uWG-57-vrf"/>
+                <constraint firstItem="hUs-oo-bdh" firstAttribute="top" secondItem="UjH-Js-8Ik" secondAttribute="bottom" constant="15" id="vXh-iH-Pxa"/>
+                <constraint firstItem="5Vx-vB-LCh" firstAttribute="top" secondItem="hUs-oo-bdh" secondAttribute="bottom" constant="20" id="xF8-4b-y5a"/>
+                <constraint firstAttribute="trailing" secondItem="5Vx-vB-LCh" secondAttribute="trailing" constant="26" id="yAW-hF-7zB"/>
+                <constraint firstItem="ABr-PY-RLr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="z4Q-IM-bnT"/>
+                <constraint firstItem="ABr-PY-RLr" firstAttribute="top" secondItem="wJT-ut-6FB" secondAttribute="bottom" constant="20" id="zUv-b3-0Zn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backGroundView" destination="6mF-NG-AiF" id="qd3-i3-gp5"/>
+                <outlet property="contentLabel1" destination="hUs-oo-bdh" id="H1d-sI-SG5"/>
+                <outlet property="contentLabel2" destination="5Vx-vB-LCh" id="Cyd-gV-f9E"/>
+                <outlet property="contentLabel3" destination="aB7-57-maG" id="X3q-gs-OiT"/>
+                <outlet property="loginBtn" destination="ABr-PY-RLr" id="ko0-if-wlq"/>
+                <outlet property="openAccountBtn" destination="wJT-ut-6FB" id="AZb-ed-VZc"/>
+                <outlet property="titleLabel" destination="XXc-CO-2X1" id="RQ1-5p-nIF"/>
+            </connections>
+            <point key="canvasLocation" x="525" y="-101"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="分割线.png" width="470" height="5"/>
+        <image name="过渡动画-按钮1.png" width="444" height="90"/>
+        <image name="过渡动画-按钮2.png" width="444" height="90"/>
+        <image name="过渡动画-控件.png" width="35" height="27"/>
+    </resources>
+</document>

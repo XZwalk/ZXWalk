@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FourthProjectViewController : UIViewController
+@interface FourthProjectViewController : ZXViewController
 
 @end

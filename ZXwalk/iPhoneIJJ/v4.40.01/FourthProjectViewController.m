@@ -8,9 +8,8 @@
 
 #import "FourthProjectViewController.h"
 #import "FourthProjectCell.h"
-#import "OpenAccountTransitionViewController.h"
 #import "TestFrameViewController.h"
-
+#import "OpenAccountTransitionViewController.h"
 
 
 @interface FourthProjectViewController ()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
@@ -22,6 +21,9 @@
 @end
 
 @implementation FourthProjectViewController
+
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -44,17 +46,9 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    
-    //每个controler里面都要这样写
-    //建一个controller的基类就可避免这样的情况发生
-    self.tabBarController.tabBar.hidden = YES;
+
 }
 
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    
-    self.tabBarController.tabBar.hidden = NO;
-}
 
 
 

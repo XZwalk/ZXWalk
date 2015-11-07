@@ -1,9 +1,9 @@
 //
-//  Yuliu2ViewController.m
+//  IJJViewController.m
 //  ZXwalk
 //
-//  Created by 张祥 on 15/8/9.
-//  Copyright (c) 2015年 张祥. All rights reserved.
+//  Created by 张祥 on 15/11/7.
+//  Copyright © 2015年 张祥. All rights reserved.
 //
 
 #import "IJJViewController.h"
@@ -79,7 +79,7 @@
     
     if (indexPath.row == 0) {
         
-
+        
         
         FourthProjectViewController *vc = [FourthProjectViewController new];
         [self.navigationController pushViewController:vc animated:YES];

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestFrameViewController : UIViewController
+@interface TestFrameViewController : ZXViewController
 
 @end

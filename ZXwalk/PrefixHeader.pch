@@ -36,4 +36,8 @@
 #ifdef __OBJC__
 @import UIKit;
 @import Foundation;
+#import "ZXViewController.h"
+#import "ZXNavigationController.h"
+#import "DefineLib.h"
+#import "TCDefine.h"
 #endif

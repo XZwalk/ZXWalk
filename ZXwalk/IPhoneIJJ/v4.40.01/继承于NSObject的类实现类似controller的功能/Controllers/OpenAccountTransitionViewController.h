@@ -1,5 +1,5 @@
 //
-//  IJJViewController.h
+//  OpenAccountTransitionViewController.h
 //  ZXwalk
 //
 //  Created by 张祥 on 15/11/7.
@@ -8,6 +8,6 @@
 
 #import "ZXViewController.h"
 
-@interface IJJViewController : ZXViewController
+@interface OpenAccountTransitionViewController : ZXViewController
 
 @end
