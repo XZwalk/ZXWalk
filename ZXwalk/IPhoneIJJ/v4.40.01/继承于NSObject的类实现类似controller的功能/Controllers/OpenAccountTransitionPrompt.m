@@ -42,6 +42,8 @@
 
 
 #pragma mark - private api
+
+//负责样式的设置
 - (void)setTransitionViewStyle {
     
     if (IS_IOS7) {
@@ -84,6 +86,7 @@
 }
 
 
+//负责视图信息的显示
 - (void)setTransitionViewInfo {
     
     NSDictionary *transitionData = nil;
@@ -105,18 +108,13 @@
 #pragma mark - event response
 - (IBAction)openAccountAction {
     
-    
     [self.tool hide:YES];
-    
-
     
 }
 
 
 
 - (IBAction)loginAction {
-    
-    
     
     [self.tool hide:YES];
     

@@ -15,7 +15,7 @@
 @property (nonatomic, copy, nullable) NSString *fundCode;
 
 
-
+//不变的东西封装起来,变化的东西拿出去
 - (BOOL)checkIsLoginBefore;
 
 - (void)show;

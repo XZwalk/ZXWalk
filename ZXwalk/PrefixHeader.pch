@@ -40,4 +40,5 @@
 #import "ZXNavigationController.h"
 #import "DefineLib.h"
 #import "TCDefine.h"
+#import "UIColor+ZX.h"
 #endif
