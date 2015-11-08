@@ -11,6 +11,8 @@
 #import "TestFrameViewController.h"
 #import "OpenAccountTransitionViewController.h"
 #import "PurchaseViewController.h"
+#import "StandardViewController.h"
+
 
 @interface FourthProjectViewController ()<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -39,7 +41,7 @@
     [self.collectionView registerNib:[UINib nibWithNibName:@"FourthProjectCell" bundle:nil] forCellWithReuseIdentifier:@"item"];
     
     //这里为了方便直接设置的数据,正常情况下,这里的数据是在其他类里面解析出来的
-    self.dataAry = @[@"AutoLayout", @"view在控制器中frame的初始化", @"将一个业务封装成一个类"];
+    self.dataAry = @[@"AutoLayout", @"view在控制器中frame的初始化", @"将一个业务封装成一个类", @"规范的视图控制器的写法"];
     
 }
 
@@ -91,6 +93,8 @@
     } else if (indexPath.row == 2) {
         
         [self.navigationController pushViewController:[PurchaseViewController new] animated:YES];
+    } else if (indexPath.row == 3) {
+        [self.navigationController pushViewController:[[StandardViewController alloc] initWithNibName:@"StandardViewController" bundle:nil] animated:YES];
     }
     
 }

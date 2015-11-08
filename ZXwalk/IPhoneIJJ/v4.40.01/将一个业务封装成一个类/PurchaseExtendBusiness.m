@@ -83,21 +83,10 @@
 
 //跳转到另一个页面
 - (void)gotoPurchasePage {
-    NSString *recordStr = [self.showButtonRule JSONString];
-    NSString *fundCode = [self.showButtonRule objectForKey:@"FundCode"];
-    
-    //取到当前视图控制器
-    
-    //转换为正确的视图控制器(购买成功页面)
-    
-    NSString *urlString = nil;
-    
-    //取到跳到购买成功的页面的前一个页面的类型
-    
-    //如果是收益宝购买
+
     
     
-    //此处不能用IFNavigator  openURL那套,这样会冲掉回调的popUrl,所以此处跳转需携带之前的popUrl
+    
 }
 
 #pragma mark - UICollectionViewDataSource

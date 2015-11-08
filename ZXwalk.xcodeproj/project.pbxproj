@@ -40,6 +40,8 @@
 		FECB32CD1BEF86B90044FF1A /* FourthProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECB32C71BEF86B90044FF1A /* FourthProjectViewController.xib */; };
 		FECB32CE1BEF86B90044FF1A /* FourthProjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FECB32CA1BEF86B90044FF1A /* FourthProjectCell.m */; };
 		FECB32CF1BEF86B90044FF1A /* FourthProjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECB32CB1BEF86B90044FF1A /* FourthProjectCell.xib */; };
+		FECB32D71BEF8E3E0044FF1A /* StandardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECB32D51BEF8E3E0044FF1A /* StandardViewController.m */; };
+		FECB32D81BEF8E3E0044FF1A /* StandardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECB32D61BEF8E3E0044FF1A /* StandardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,9 @@
 		FECB32C91BEF86B90044FF1A /* FourthProjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthProjectCell.h; sourceTree = "<group>"; };
 		FECB32CA1BEF86B90044FF1A /* FourthProjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthProjectCell.m; sourceTree = "<group>"; };
 		FECB32CB1BEF86B90044FF1A /* FourthProjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthProjectCell.xib; sourceTree = "<group>"; };
+		FECB32D41BEF8E3E0044FF1A /* StandardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardViewController.h; sourceTree = "<group>"; };
+		FECB32D51BEF8E3E0044FF1A /* StandardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardViewController.m; sourceTree = "<group>"; };
+		FECB32D61BEF8E3E0044FF1A /* StandardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StandardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +150,7 @@
 			children = (
 				FECB32C41BEF86B90044FF1A /* Controllers */,
 				FECB32C81BEF86B90044FF1A /* Views */,
+				FECB32D01BEF8D810044FF1A /* 规范的视图控制器的写法 */,
 				FECB32941BEF78EA0044FF1A /* 将一个业务封装成一个类 */,
 				FE934A821BEDF2BF00903E96 /* 继承于NSObject的类实现类似controller的功能 */,
 				FE20FDA71BDD2AB500A59382 /* VIew在控制器中frame的初始化 */,
@@ -371,6 +377,17 @@
 			path = ZXwalk/IPhoneIJJ/v4.40.01/Views;
 			sourceTree = SOURCE_ROOT;
 		};
+		FECB32D01BEF8D810044FF1A /* 规范的视图控制器的写法 */ = {
+			isa = PBXGroup;
+			children = (
+				FECB32D41BEF8E3E0044FF1A /* StandardViewController.h */,
+				FECB32D51BEF8E3E0044FF1A /* StandardViewController.m */,
+				FECB32D61BEF8E3E0044FF1A /* StandardViewController.xib */,
+			);
+			name = "规范的视图控制器的写法";
+			path = "ZXwalk/IPhoneIJJ/v4.40.01/规范的视图控制器的写法";
+			sourceTree = SOURCE_ROOT;
+		};
 		FEE89E981BDB331600458746 /* iPhoneIJJ */ = {
 			isa = PBXGroup;
 			children = (
@@ -470,6 +487,7 @@
 				FECB32CF1BEF86B90044FF1A /* FourthProjectCell.xib in Resources */,
 				FECB32CD1BEF86B90044FF1A /* FourthProjectViewController.xib in Resources */,
 				FE4A23731B75E28B00A39627 /* Images.xcassets in Resources */,
+				FECB32D81BEF8E3E0044FF1A /* StandardViewController.xib in Resources */,
 				FE934A9A1BEDF2BF00903E96 /* 分割线.png in Resources */,
 				FE934AA31BEDF38400903E96 /* OpenAccountTransitionViewController.xib in Resources */,
 				FE934A9B1BEDF2BF00903E96 /* 过渡动画-按钮1.png in Resources */,
@@ -494,6 +512,7 @@
 				FECB32971BEF78FF0044FF1A /* PurchaseExtendBusiness.m in Sources */,
 				FECB32B51BEF825B0044FF1A /* UIColor+ZX.m in Sources */,
 				FE934A651BEDEB3C00903E96 /* IJJViewController.m in Sources */,
+				FECB32D71BEF8E3E0044FF1A /* StandardViewController.m in Sources */,
 				FE934A711BEDEDF500903E96 /* ZXViewController.m in Sources */,
 				FECB32B61BEF825B0044FF1A /* JSONKit.m in Sources */,
 				FECB32B71BEF825B0044FF1A /* README.md in Sources */,
