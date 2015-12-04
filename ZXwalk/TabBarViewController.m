@@ -25,14 +25,11 @@
 
 - (void)loadSubControllers{
     
-    
     NSArray *controllersNames = @[@"IJJViewController"];
-    
     
     NSArray *titles = @[@"爱基金"];
     
     NSArray *images = @[@"tabbar_mainframe"];
-    
     
     NSMutableArray *controllers = [@[] mutableCopy];
     

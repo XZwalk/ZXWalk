@@ -12,6 +12,8 @@
 
 @property (nonatomic, strong)NSDictionary *showButtonRule;
 
+
+//容器view的创建是在业务里面实现的
 @property (nonatomic, strong)UICollectionView *chooseListView;
 
 
